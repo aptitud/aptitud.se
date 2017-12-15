@@ -1,7 +1,7 @@
 import React from 'React'
 import Section from '../components/Section'
 import Fellow from '../components/Fellow'
-import fellows from '../data/fellows.json'
+import data from '../data/fellows.json'
 
 class Fellows extends React.Component {
   render() {
@@ -18,7 +18,7 @@ class Fellows extends React.Component {
         </p>
 
         <div id="fellow-list" className="row">
-          {fellows.map(fellow => <Fellow key={fellow.name} {...fellow} />)}
+          {data.map(fellow => <Fellow key={fellow.name} {...fellow} />)}
         </div>
       </Section>
     )

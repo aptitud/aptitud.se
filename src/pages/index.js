@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import About from './about'
 import Aday from './aday'
 import Contact from './contact'
