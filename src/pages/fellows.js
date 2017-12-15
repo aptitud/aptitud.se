@@ -1,4 +1,4 @@
-import React from 'React'
+import React from 'react'
 import Section from '../components/Section'
 import Fellow from '../components/Fellow'
 import data from '../data/fellows.json'
