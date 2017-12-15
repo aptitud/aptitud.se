@@ -1,0 +1,9 @@
+{
+  "files.exclude": {
+    "**/.cache": true,
+    "**/public": true
+  },
+  "prettier.trailingComma": "all",
+  "prettier.semi": false,
+  "prettier.singleQuote": true
+}

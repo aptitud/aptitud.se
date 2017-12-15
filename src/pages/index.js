@@ -1,12 +1,18 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import About from './about'
+import Aday from './aptitud-day'
+import Contact from './contact'
+import Fellows from './fellows'
+import Aptigram from './aptigram'
 
 const IndexPage = () => (
   <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <About />
+    <Aday />
+    <Fellows />
+    <Aptigram />
+    <Contact />
   </div>
 )
 
