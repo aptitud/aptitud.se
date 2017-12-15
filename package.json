@@ -9,6 +9,7 @@
     "gatsby-link": "^1.6.32",
     "gatsby-plugin-react-helmet": "^1.0.8"
   },
+  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
