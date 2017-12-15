@@ -14,11 +14,10 @@ const InstagramImage = ({ Caption, Url, Location }) => (
 class Aptigram extends React.Component {
   state = { data: [] }
   componentDidMount() {
-    console.log('geheheheh')
     get('http://aptitud.se/instagram.json')
       .then(response => response.data)
       .then(data => this.setState({ data }))
-      .catch(e => console.log(e))
+      .catch(e => console.error(e))
   }
   render() {
     const { data } = this.state

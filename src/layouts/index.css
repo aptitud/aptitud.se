@@ -1,40 +1,29 @@
 .navbar nav,
-main > section {
+main>section {
   border-bottom: 10px solid #fff;
 }
 
-@font-face {
-  font-family: 'Comic Neue';
-  src: url(http://aptitud.se/aptitud.se/fonts/ComicNeue-Bold.eot);
-  src: url(http://aptitud.se/fonts/ComicNeue-Bold.eot?#iefix)
-      format('embedded-opentype'),
-    url(http://aptitud.se/fonts/ComicNeue-Bold.woff2) format('woff2'),
-    url(http://aptitud.se/fonts/ComicNeue-Bold.woff) format('woff'),
-    url(http://aptitud.se/fonts/ComicNeue-Bold.ttf) format('truetype');
-}
+url(http://aptitud.se/fonts/ComicNeue-Bold.ttf) format('truetype');
 
+}
 section {
   padding-top: 20px;
   padding-bottom: 50px;
 }
-
 html {
   font-size: 85%;
   box-sizing: border-box;
 }
-
 *,
 :after,
 :before {
   box-sizing: inherit;
 }
-
 body {
   background-color: #333;
   color: #fff;
   -webkit-font-smoothing: antialiased;
 }
-
 .navbar nav {
   z-index: 1000;
   left: 0;
@@ -43,114 +32,91 @@ body {
   height: 56px;
   line-height: 56px;
 }
-
 .navbar nav .button-collapse {
   padding: 0 10px;
 }
-
 .navbar nav .button-collapse i {
   font-size: 2.7rem;
   height: 56px;
   line-height: 56px;
 }
-
 .navbar nav ul a {
   font-weight: 700;
   font-size: 15px;
 }
-
 .navbar nav .brand-logo {
   visibility: hidden;
   opacity: 0;
   transition: visibility 0.2s, height 0.2s, opacity 0.2s linear;
 }
-
 .navbar nav .brand-logo img {
   height: 0;
   transition: height 0.2s linear;
   margin-top: -13px;
 }
-
 .navbar nav.pinned .brand-logo {
   visibility: visible;
   opacity: 1;
 }
-
 .navbar nav.pinned .brand-logo img {
   transition: none;
   height: 118px;
 }
-
 .navbar .nav-wrapper {
   padding: 0 20px;
 }
-
 .navbar .side-nav {
   border-right: 10px solid #fff;
 }
-
 .navbar .side-nav li {
   margin-bottom: 10px;
 }
-
 .navbar .side-nav li a {
   font-size: 24px;
   font-weight: 700;
   color: #fff;
   text-shadow: 0 1px rgba(0, 0, 0, 0.5);
 }
-
 .navbar .side-nav .about {
   background-color: #1e859a;
 }
-
 .navbar .side-nav .aptitud-day {
   background-color: #7a9752;
 }
-
 .navbar .side-nav .contact {
   background-color: #febe10;
 }
-
 .navbar .side-nav .fellows {
   background-color: #f63;
 }
-
 .navbar .side-nav .aptigram {
   background-color: #784e90;
 }
-
 .parallax-container {
   position: fixed;
   width: 100%;
   height: 450px;
   z-index: -1;
 }
-
 .parallax-container .parallax img {
   display: block;
 }
-
-main > section {
+main>section {
   max-height: 250px;
   min-height: 200px;
   overflow-y: hidden;
   position: relative;
   transition: max-height 0.5s ease;
 }
-
 #logo {
   max-height: none;
 }
-
 #contact {
   background-color: #febe10;
 }
-
-main > section:last-child {
+main>section:last-child {
   border-bottom: 0 none;
 }
-
 section h2 {
   margin-top: 20px;
   text-align: center;
@@ -160,27 +126,22 @@ section h2 {
   text-shadow: 0 7px 0 rgba(0, 0, 0, 0.15);
   -webkit-font-smoothing: initial;
 }
-
 #logo,
 .row {
   margin-bottom: 0;
 }
-
 #logo {
   min-height: 0;
   padding: 0;
 }
-
 #logo .responsive-img {
   max-height: 280px;
   margin: 40px auto 10px;
   display: block;
 }
-
 #logo .parallax-container {
   height: 280px;
 }
-
 #logo .links {
   float: none;
   width: auto;
@@ -189,97 +150,77 @@ section h2 {
   margin-right: -20px;
   padding: 0;
 }
-
 #logo .links img {
   height: 50px;
 }
-
 #about {
   background-color: #1e859a;
 }
-
 #about h2 {
   -webkit-transform: rotate(1deg);
   transform: rotate(1deg);
 }
-
 #aptigram h2,
 #aptitud-day h2 {
   -webkit-transform: rotate(-2deg);
 }
-
 #aptitud-day {
   background-color: #7a9752;
 }
-
 #aptitud-day h2 {
   transform: rotate(-2deg);
 }
-
 #aptitud-day .card-panel {
   background-color: #eee;
   color: #000;
 }
-
 #contact h2 {
   -webkit-transform: rotate(1deg);
   transform: rotate(1deg);
 }
-
 #contact .card {
   background-color: #eee;
   color: #000;
 }
-
 #contact .card .card-title {
   font-weight: 200;
   text-transform: uppercase;
   margin-top: 0;
 }
-
 #contact .card .card-action {
   background-color: rgba(0, 0, 0, 0.05);
   z-index: 0;
 }
-
 #contact .card .card-action a {
   color: #039be5 !important;
 }
-
 #contact .links {
   margin-top: 10px;
 }
-
 #contact .links img {
   height: 60px;
 }
-
 #fellows {
   background-color: #f63;
 }
-
 #fellows h2 {
   -webkit-transform: rotate(3deg);
   transform: rotate(3deg);
 }
-
 #fellows #fellow-list {
   margin: 0 0.75rem;
   padding-bottom: 50px;
 }
-
 @media only screen and (min-width: 601px) {
   #fellows #fellow-list {
     column-count: 2;
   }
 }
-
 @media only screen and (min-width: 901px) {
   #fellows #fellow-list {
     column-count: 3;
   }
 }
-
 @media only screen and (min-width: 1200px) {
   #fellows #fellow-list {
     column-count: 4;
@@ -287,79 +228,64 @@ section h2 {
     margin: 0 auto;
   }
 }
-
 #fellows .fellow {
   display: inline-block;
   vertical-align: bottom;
 }
-
 #fellows .fellow .card-panel {
   overflow: hidden;
   padding: 0;
   background-color: #eee;
   color: #000;
 }
-
 #fellows .fellow .card-panel .info-container .info {
   padding: 15px 15px 0;
   margin-bottom: 0;
 }
-
 #fellows .fellow .card-panel .info-container .heading {
   display: table;
   margin: -15px 0 15px -15px;
 }
-
 #fellows .fellow .card-panel .info-container .heading div {
   display: table-cell;
   width: 30%;
 }
-
 #fellows .fellow .card-panel .info-container .heading div img {
   display: block;
   border-radius: 0 0 50px;
 }
-
 #fellows .fellow .card-panel .info-container .heading h4 {
   display: table-cell;
   margin: 0;
   padding: 10px 0 0 15px;
   vertical-align: bottom;
 }
-
 #fellows .fellow .card-panel .info-container p {
   margin: 0;
   padding: 0 5px 30px;
   line-height: 1.2;
 }
-
 #fellows .fellow .card-panel .contact {
   padding: 15px 15px 15px 20px;
   margin: 0;
   background-color: rgba(0, 0, 0, 0.05);
   clear: both;
 }
-
 #fellows .fellow .card-panel .contact .col {
   padding: 0;
 }
-
 #fellows .fellow .card-panel .contact li {
   display: inline;
 }
-
 #aptigram {
   background-color: #784e90;
 }
-
 #aptigram h2 {
   transform: rotate(-2deg);
 }
-
 #aptigram .container {
   width: 100%;
 }
-
 #aptigram .polaroids a {
   -webkit-transition: -webkit-transform 0.15s linear;
   -webkit-box-shadow: 0 3px 10px 2px rgba(0, 0, 0, 0.5);
@@ -378,7 +304,6 @@ section h2 {
   -moz-transform: rotate(-2deg);
   transform: rotate(-2deg);
 }
-
 #aptigram .polaroids a:hover {
   -webkit-transform: scale(1.25) !important;
   -moz-transform: scale(1.25) !important;
@@ -386,7 +311,6 @@ section h2 {
   position: relative;
   z-index: 5;
 }
-
 #aptigram .polaroids a:after {
   content: attr(title);
   display: block;
@@ -394,20 +318,17 @@ section h2 {
   padding-left: 5px;
   text-align: left;
 }
-
 #aptigram .polaroids .polariod {
   display: inline-block;
   max-height: 300px;
   padding: 0;
   float: none;
 }
-
 #aptigram .polaroids .polariod:nth-child(even) a {
   -webkit-transform: rotate(2deg);
   -moz-transform: rotate(2deg);
   transform: rotate(2deg);
 }
-
 #aptigram .polaroids .polariod:nth-child(3n) a {
   -webkit-transform: none;
   -moz-transform: none;
@@ -415,7 +336,6 @@ section h2 {
   position: relative;
   top: -5px;
 }
-
 #aptigram .polaroids .polariod:nth-child(5n) a {
   -webkit-transform: rotate(5deg);
   -moz-transform: rotate(5deg);
@@ -423,24 +343,20 @@ section h2 {
   position: relative;
   right: 5px;
 }
-
 #aptigram .polaroids .polariod:nth-child(8n) a {
   position: relative;
   top: 8px;
   right: 5px;
 }
-
 #aptigram .polaroids .polariod:nth-child(11n) a {
   position: relative;
   top: 3px;
   left: -5px;
 }
-
 #aptigram .polaroids img {
   max-width: 100%;
   margin-bottom: 5px;
 }
-
 #aptigram .polaroids .location {
   display: block;
   font-size: 10px;
@@ -448,38 +364,33 @@ section h2 {
   padding: 0 0 0 5px;
   margin-bottom: 5px;
 }
-
 .section-img-container {
   width: auto;
   margin-bottom: 1em;
 }
-
 .section-img {
   float: none;
 }
-
 .hidden-link {
   color: #fff;
 }
-
 .hidden-link:hover {
   color: #e55;
 }
-
 @media only screen and (max-width: 380px) {
-  main > section h2 {
+  main>section h2 {
     margin-left: -0.75rem;
     margin-right: -0.75rem;
     letter-spacing: -3px;
   }
 }
-
 @media only screen and (min-width: 540px) {
   .section-img-container {
     max-width: 60%;
     float: left;
     padding-right: 30px;
   }
+
   .section-img {
     float: left;
   }
