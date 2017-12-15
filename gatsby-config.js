@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Aptitud.se`,
   },
   plugins: [`gatsby-plugin-react-helmet`],
 }
