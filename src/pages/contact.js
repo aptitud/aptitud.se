@@ -47,7 +47,7 @@ class Contact extends React.Component {
               target="new"
               title="LinkedIn"
             >
-              <Image path="linkedin.png" alt="LinkedIn" />>
+              <Image path="linkedin.png" alt="LinkedIn" />
             </a>
             <a
               href="http://twitter.com/Aptitud_Sthlm"
