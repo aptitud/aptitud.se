@@ -11,7 +11,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "yarn && gatsby build",
     "develop": "gatsby develop",
     "format":
       "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
