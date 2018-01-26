@@ -16,7 +16,13 @@ const PageSection = ({ id, content: { header, content, image }, fellows }) => {
             text-align: center;
           `}
         >
-          <Image src={image} />
+          <Image
+            css={`
+              max-width: 100%;
+              height: auto;
+            `}
+            src={image}
+          />
         </div>
       )}
     </Section>
