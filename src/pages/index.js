@@ -1,7 +1,7 @@
 import React from 'react'
-import About from './about'
 import Aday from './aday'
 import Contact from './contact'
+import PageSection from '../components/PageSection'
 import Fellows from '../components/Fellows'
 import Aptigram from './aptigram'
 
@@ -15,14 +15,18 @@ const getPageForName = ({ edges: pages }, name) => {
     ? {
         header: result.node.header,
         content: result.node.content.childMarkdownRemark.html,
+        image: result.node.image && result.node.image.file.url,
       }
     : {}
 }
 
 const IndexPage = ({ data }) => (
   <div>
-    <About />
-    <Aday />
+    <PageSection id="about" content={getPageForName(data.pages, 'About')} />
+    <PageSection
+      id="aptitud-day"
+      content={getPageForName(data.pages, 'Aday')}
+    />
     <Fellows
       content={getPageForName(data.pages, 'Fellows')}
       fellows={getNodesFromEdges(data.fellows)}
@@ -61,6 +65,11 @@ export const query = graphql`
           id
           header
           name
+          image {
+            file {
+              url
+            }
+          }
           content {
             childMarkdownRemark {
               html
