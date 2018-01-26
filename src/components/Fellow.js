@@ -29,7 +29,9 @@ const Fellow = ({ name, description, services, phone, blog, image }) => {
         <div className="info-container">
           <div className="info">
             <div className="heading">
-              <FellowImage image={image} />
+              <div>
+                <FellowImage image={image} />
+              </div>
               <h4>{name}</h4>
             </div>
             {description && <p>{description.description}</p>}
