@@ -8,7 +8,18 @@ import './index.css'
 
 const NavBar = () => (
   <div className="navbar">
-    <nav>
+    <nav
+      css={`
+        border-top: 10px solid #fff;
+        border-bottom: 10px solid #fff;
+        z-index: 1000;
+        left: 0;
+        right: 0;
+        box-sizing: content-box;
+        height: 56px;
+        line-height: 56px;
+      `}
+    >
       <div className="nav-wrapper">
         <a href="#" data-activates="mobile-nav" className="button-collapse">
           <i className="material-icons">menu</i>

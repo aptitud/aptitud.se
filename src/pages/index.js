@@ -9,11 +9,24 @@ const getNodesFromEdges = ({ edges }) => {
   return edges.map(edge => edge.node)
 }
 
+const getPageForName = ({ edges: pages }, name) => {
+  const result = pages.filter(x => x.node.name === name)[0]
+  return result
+    ? {
+        header: result.node.header,
+        content: result.node.content.childMarkdownRemark.html,
+      }
+    : {}
+}
+
 const IndexPage = ({ data }) => (
   <div>
     <About />
     <Aday />
-    <Fellows fellows={getNodesFromEdges(data.fellows)} />
+    <Fellows
+      content={getPageForName(data.pages, 'Fellows')}
+      fellows={getNodesFromEdges(data.fellows)}
+    />
     <Aptigram />
     <Contact />
   </div>
@@ -38,6 +51,20 @@ export const query = graphql`
           services {
             name
             url
+          }
+        }
+      }
+    }
+    pages: allContentfulPage {
+      edges {
+        node {
+          id
+          header
+          name
+          content {
+            childMarkdownRemark {
+              html
+            }
           }
         }
       }

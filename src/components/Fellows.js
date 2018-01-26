@@ -2,19 +2,14 @@ import React from 'react'
 import Section from './Section'
 import Fellow from './Fellow'
 
-const Fellows = ({ fellows }) => {
+const Fellows = ({ content: { header, content }, fellows }) => {
   return (
-    <Section id="fellows" heading="Gladare">
-      <p>
-        Vi som är Aptitud har sökt oss hit för vi vill ha vänner istället för
-        kollegor. För att vi är nyfikna, glada och skrattar mycket och för att
-        vi är trygga i våra konsultroller. För att vi är seriösa utan att ta oss
-        själva på för stort allvar. För att vi gillar att hela tiden inspireras
-        och utvecklas. Och för att vi tycker det är våldsamt skönt att slippa
-        byråkratin och administrationen som följer med en hierarkisk
-        bolagsstruktur.
-      </p>
-
+    <Section id="fellows" heading={header}>
+      <p
+        dangerouslySetInnerHTML={{
+          __html: content,
+        }}
+      />
       <div id="fellow-list" className="row">
         {fellows.map(fellow => <Fellow key={fellow.name} {...fellow} />)}
       </div>
