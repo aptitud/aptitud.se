@@ -109,7 +109,7 @@ const Logo = () => (
 const Hero = () => (
   <div className="parallax-container">
     <div className="parallax">
-      <Image src="aptibilder.png" />
+      <Image src="aptibilder.jpg" />
     </div>
   </div>
 )
