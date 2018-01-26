@@ -8,7 +8,7 @@ class Contact extends React.Component {
       <Section id="contact" heading="Kontakt">
         <div className="row">
           <div className="col s12 m6">
-            <Image.Section path="karta.png" />
+            <Image.Section src="karta.png" />
           </div>
           <div className="col s12 m6">
             <div className="card">
@@ -47,35 +47,35 @@ class Contact extends React.Component {
               target="new"
               title="LinkedIn"
             >
-              <Image path="linkedin.png" alt="LinkedIn" />
+              <Image src="linkedin.png" alt="LinkedIn" />
             </a>
             <a
               href="http://twitter.com/Aptitud_Sthlm"
               target="new"
               title="Twitter"
             >
-              <Image path="twitter.png" alt="Twitter" />
+              <Image src="twitter.png" alt="Twitter" />
             </a>
             <a
               href="http://www.facebook.com/aptitudsthlm"
               target="new"
               title="Facebook"
             >
-              <Image path="fb.png" alt="Facebook" />
+              <Image src="fb.png" alt="Facebook" />
             </a>
             <a
               href="http://aptitud.eventbrite.com"
               target="new"
               title="EventBrite"
             >
-              <Image path="eventbrite.png" alt="EventBrite" />
+              <Image src="eventbrite.png" alt="EventBrite" />
             </a>
             <a
               href="http://www.youtube.com/aptitudsthlm"
               target="new"
               title="YouTube"
             >
-              <Image path="youtube.png" alt="YouTube" />
+              <Image src="youtube.png" alt="YouTube" />
             </a>
           </div>
         </div>

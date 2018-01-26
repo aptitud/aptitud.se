@@ -14,7 +14,7 @@ class About extends React.Component {
         </p>
 
         <div className="section-img-container">
-          <Image.Section path="klotter.png" />
+          <Image.Section src="klotter.png" />
         </div>
 
         <p>

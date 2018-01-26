@@ -14,7 +14,7 @@ const NavBar = () => (
           <i className="material-icons">menu</i>
         </a>
         <a href="#" className="brand-logo">
-          <Image path="aptitudlogo_pinnedheader.png" />
+          <Image src="aptitudlogo_pinnedheader.png" />
         </a>
         <ul className="right hide-on-med-and-down">
           <li>
@@ -59,7 +59,7 @@ const Logo = () => (
   <section id="logo" className="expanded">
     <div className="container row">
       <div className="col s12">
-        <Image.Responsive path="aptitudlogo.png" />
+        <Image.Responsive src="aptitudlogo.png" />
       </div>
 
       <div className="col s12 links center-align">
@@ -68,27 +68,27 @@ const Logo = () => (
           target="new"
           title="LinkedIn"
         >
-          <Image path="linkedin.png" alt="LinkedIn" />
+          <Image src="linkedin.png" alt="LinkedIn" />
         </a>
         <a href="http://twitter.com/Aptitud_Sthlm" target="new" title="Twitter">
-          <Image path="twitter.png" alt="Twitter" />
+          <Image src="twitter.png" alt="Twitter" />
         </a>
         <a
           href="http://www.facebook.com/aptitudsthlm"
           target="new"
           title="Facebook"
         >
-          <Image path="fb.png" alt="Facebook" />
+          <Image src="fb.png" alt="Facebook" />
         </a>
         <a href="http://aptitud.eventbrite.com" target="new" title="EventBrite">
-          <Image path="eventbrite.png" alt="EventBrite" />
+          <Image src="eventbrite.png" alt="EventBrite" />
         </a>
         <a
           href="http://www.youtube.com/aptitudsthlm"
           target="new"
           title="YouTube"
         >
-          <Image path="youtube.png" alt="YouTube" />
+          <Image src="youtube.png" alt="YouTube" />
         </a>
       </div>
     </div>
@@ -98,7 +98,7 @@ const Logo = () => (
 const Hero = () => (
   <div className="parallax-container">
     <div className="parallax">
-      <Image path="aptibilder.png" />
+      <Image src="aptibilder.png" />
     </div>
   </div>
 )

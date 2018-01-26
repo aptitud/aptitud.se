@@ -13,7 +13,7 @@ class Aday extends React.Component {
         </p>
 
         <div className="section-img-container">
-          <Image.Section path="aptituddagen_rotated.png" />
+          <Image.Section src="aptituddagen_rotated.png" />
         </div>
 
         <p>

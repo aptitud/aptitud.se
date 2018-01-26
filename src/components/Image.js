@@ -1,8 +1,12 @@
 import React from 'react'
 
-const Image = ({ path, ...props }) => (
-  <img src={require(`../images/${path}`)} {...props} />
-)
+const Image = ({ src, ...props }) => {
+  const isAbsolutePath = /\/\//.test(src)
+
+  return (
+    <img src={isAbsolutePath ? src : require(`../images/${src}`)} {...props} />
+  )
+}
 
 export const SectionImage = ({ className, ...props }) => (
   <ResponsiveImage {...props} className={`section-img ${className}`} />
