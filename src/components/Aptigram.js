@@ -1,6 +1,5 @@
 import React from 'react'
-import Section from '../components/Section'
-import posts from '../../aptigram.json'
+import Section from './Section'
 
 const InstagramImage = ({ caption, location, url }) => (
     <div className="col s6 m4 l2 polariod">
@@ -13,6 +12,8 @@ const InstagramImage = ({ caption, location, url }) => (
 
 class Aptigram extends React.Component {
     render() {
+        const { posts } = this.props
+
         return (
             <Section id="aptigram" heading="Aptigram">
                 <div className="rows polaroids">

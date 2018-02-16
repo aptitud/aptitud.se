@@ -1,7 +1,8 @@
 {
     "files.exclude": {
         "**/.cache": true,
-        "**/public": true
+        "**/public": true,
+        "**/node_modules": true
     },
     "prettier.trailingComma": "all",
     "prettier.semi": false,
