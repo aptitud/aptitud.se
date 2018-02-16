@@ -27,4 +27,4 @@ const LoadRecent = async ({ accessToken, itemsCount }) => {
     }
 }
 
-LoadRecent({ accessToken: process.env.INSTGRAM_ACCESS_TOKEN, itemsCount: 12 })
+LoadRecent({ accessToken: process.env.INSTAGRAM_ACCESS_TOKEN, itemsCount: 12 })
