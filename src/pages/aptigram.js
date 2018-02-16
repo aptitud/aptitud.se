@@ -1,34 +1,26 @@
 import React from 'react'
 import Section from '../components/Section'
-import { get } from 'axios'
+import posts from '../../aptigram.json'
 
-const InstagramImage = ({ Caption, Url, Location }) => (
-  <div className="col s6 m4 l2 polariod">
-    <a href="http://www.instagram.com/aptitud_sthlm/" title={Caption}>
-      <img src={Url} />
-      <span className="location">{Location}</span>
-    </a>
-  </div>
+const InstagramImage = ({ caption, location, url }) => (
+    <div className="col s6 m4 l2 polariod">
+        <a href="http://www.instagram.com/aptitud_sthlm/" title={caption}>
+            <img src={url} />
+            <span className="location">{location}</span>
+        </a>
+    </div>
 )
 
 class Aptigram extends React.Component {
-  state = { data: [] }
-  componentDidMount() {
-    get('http://aptitud.se/instagram.json')
-      .then(response => response.data)
-      .then(data => this.setState({ data }))
-      .catch(e => console.error(e))
-  }
-  render() {
-    const { data } = this.state
-    return (
-      <Section id="aptigram" heading="Aptigram">
-        <div className="rows polaroids">
-          {data.map(x => <InstagramImage key={x.Url} {...x} />)}
-        </div>
-      </Section>
-    )
-  }
+    render() {
+        return (
+            <Section id="aptigram" heading="Aptigram">
+                <div className="rows polaroids">
+                    {posts.map(x => <InstagramImage key={x.id} {...x} />)}
+                </div>
+            </Section>
+        )
+    }
 }
 
 export default Aptigram
