@@ -1,8 +1,9 @@
 import React from 'react'
 import Section from './Section'
+import Container from './Container'
 
 const InstagramImage = ({ caption, location, url }) => (
-    <div className="col s6 m4 l2 polariod">
+    <div className="polariod">
         <a href="http://www.instagram.com/aptitud_sthlm/" title={caption}>
             <img src={url} />
             <span className="location">{location}</span>
@@ -10,18 +11,21 @@ const InstagramImage = ({ caption, location, url }) => (
     </div>
 )
 
-class Aptigram extends React.Component {
-    render() {
-        const { posts } = this.props
-
-        return (
-            <Section id="aptigram" heading="Aptigram">
-                <div className="rows polaroids">
-                    {posts.map(x => <InstagramImage key={x.id} {...x} />)}
-                </div>
-            </Section>
-        )
-    }
-}
-
-export default Aptigram
+export default ({ posts }) => (
+    <Section
+        css={`
+            background-color: #784e90;
+        `}>
+        <h2
+            css={`
+                transform: rotate(-2deg);
+            `}>
+            Aptigram
+        </h2>
+        <Container>
+            <div className="polaroids">
+                {posts.map(x => <InstagramImage key={x.id} {...x} />)}
+            </div>
+        </Container>
+    </Section>
+)

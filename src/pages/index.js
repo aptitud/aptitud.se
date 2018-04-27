@@ -1,6 +1,7 @@
 import React from 'react'
-import Aday from './aday'
-import Contact from './contact'
+import About from '../components/About'
+import Aday from '../components/Aday'
+import Contact from '../components/Contact'
 import PageSection from '../components/PageSection'
 import Fellows from '../components/Fellows'
 import Aptigram from '../components/Aptigram'
@@ -22,11 +23,8 @@ const getPageForName = ({ edges: pages }, name) => {
 
 const IndexPage = ({ data }) => (
     <div>
-        <PageSection id="about" content={getPageForName(data.pages, 'About')} />
-        <PageSection
-            id="aptitud-day"
-            content={getPageForName(data.pages, 'Aday')}
-        />
+        <About content={getPageForName(data.pages, 'About')} />
+        <Aday content={getPageForName(data.pages, 'Aday')} />
         <Fellows
             content={getPageForName(data.pages, 'Fellows')}
             fellows={getNodesFromEdges(data.fellows)}

@@ -15,113 +15,6 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-.navbar nav .button-collapse {
-    padding: 0 10px;
-}
-
-.navbar nav .button-collapse i {
-    font-size: 2.7rem;
-    height: 56px;
-    line-height: 56px;
-}
-
-.navbar nav ul a {
-    font-weight: 700;
-    font-size: 15px;
-}
-
-.navbar nav .brand-logo {
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0.2s, height 0.2s, opacity 0.2s linear;
-}
-
-.navbar nav .brand-logo img {
-    height: 0;
-    transition: height 0.2s linear;
-    margin-top: -13px;
-}
-
-.navbar nav.pinned .brand-logo {
-    visibility: visible;
-    opacity: 1;
-}
-
-.navbar nav.pinned .brand-logo img {
-    transition: none;
-    height: 118px;
-}
-
-.navbar .nav-wrapper {
-    padding: 0 20px;
-}
-
-.navbar .side-nav {
-    border-right: 10px solid #fff;
-}
-
-.navbar .side-nav li {
-    margin-bottom: 10px;
-}
-
-.navbar .side-nav li a {
-    font-size: 24px;
-    font-weight: 700;
-    color: #fff;
-    text-shadow: 0 1px rgba(0, 0, 0, 0.5);
-}
-
-.navbar .side-nav .about {
-    background-color: #1e859a;
-}
-
-.navbar .side-nav .aptitud-day {
-    background-color: #7a9752;
-}
-
-.navbar .side-nav .contact {
-    background-color: #febe10;
-}
-
-.navbar .side-nav .fellows {
-    background-color: #f63;
-}
-
-.navbar .side-nav .aptigram {
-    background-color: #784e90;
-}
-
-.parallax-container {
-    position: fixed;
-    width: 100%;
-    height: 450px;
-    z-index: -1;
-}
-
-.parallax-container .parallax img {
-    display: block;
-}
-
-main > section {
-    max-height: 250px;
-    min-height: 200px;
-    overflow-y: hidden;
-    position: relative;
-    transition: max-height 0.5s ease;
-}
-
-#logo {
-    max-height: none;
-}
-
-#contact {
-    background-color: #febe10;
-}
-
-main section:last-child {
-    border-bottom: 0 none;
-}
-
 section h2 {
     margin-top: 20px;
     text-align: center;
@@ -132,24 +25,10 @@ section h2 {
     -webkit-font-smoothing: initial;
 }
 
-#logo,
-.row {
-    margin-bottom: 0;
-}
-
-#logo {
-    min-height: 0;
-    padding: 0;
-}
-
 #logo .responsive-img {
     max-height: 280px;
     margin: 40px auto 10px;
     display: block;
-}
-
-#logo .parallax-container {
-    height: 280px;
 }
 
 #logo .links {
@@ -174,11 +53,6 @@ section h2 {
     transform: rotate(1deg);
 }
 
-#aptigram h2,
-#aptitud-day h2 {
-    -webkit-transform: rotate(-2deg);
-}
-
 #aptitud-day {
     background-color: #7a9752;
 }
@@ -190,39 +64,6 @@ section h2 {
 #aptitud-day .card-panel {
     background-color: #eee;
     color: #000;
-}
-
-#contact h2 {
-    -webkit-transform: rotate(1deg);
-    transform: rotate(1deg);
-}
-
-#contact .card {
-    background-color: #eee;
-    color: #000;
-}
-
-#contact .card .card-title {
-    font-weight: 200;
-    text-transform: uppercase;
-    margin-top: 0;
-}
-
-#contact .card .card-action {
-    background-color: rgba(0, 0, 0, 0.05);
-    z-index: 0;
-}
-
-#contact .card .card-action a {
-    color: #039be5 !important;
-}
-
-#contact .links {
-    margin-top: 10px;
-}
-
-#contact .links img {
-    height: 60px;
 }
 
 #fellows {
@@ -319,19 +160,7 @@ section h2 {
     display: inline;
 }
 
-#aptigram {
-    background-color: #784e90;
-}
-
-#aptigram h2 {
-    transform: rotate(-2deg);
-}
-
-#aptigram .container {
-    width: 100%;
-}
-
-#aptigram .polaroids a {
+.polaroids a {
     -webkit-transition: -webkit-transform 0.15s linear;
     -webkit-box-shadow: 0 3px 10px 2px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0 3px 10px 2px rgba(0, 0, 0, 0.5);
@@ -350,7 +179,7 @@ section h2 {
     transform: rotate(-2deg);
 }
 
-#aptigram .polaroids a:hover {
+.polaroids a:hover {
     -webkit-transform: scale(1.25) !important;
     -moz-transform: scale(1.25) !important;
     transform: scale(1.25) !important;
@@ -358,7 +187,7 @@ section h2 {
     z-index: 5;
 }
 
-#aptigram .polaroids a:after {
+.polaroids a:after {
     content: attr(title);
     display: block;
     max-width: 200px;
@@ -366,20 +195,20 @@ section h2 {
     text-align: left;
 }
 
-#aptigram .polaroids .polariod {
+.polaroids .polariod {
     display: inline-block;
-    max-height: 300px;
+    max-height: 200px;
     padding: 0;
     float: none;
 }
 
-#aptigram .polaroids .polariod:nth-child(even) a {
+.polaroids .polariod:nth-child(even) a {
     -webkit-transform: rotate(2deg);
     -moz-transform: rotate(2deg);
     transform: rotate(2deg);
 }
 
-#aptigram .polaroids .polariod:nth-child(3n) a {
+.polaroids .polariod:nth-child(3n) a {
     -webkit-transform: none;
     -moz-transform: none;
     transform: none;
@@ -387,7 +216,7 @@ section h2 {
     top: -5px;
 }
 
-#aptigram .polaroids .polariod:nth-child(5n) a {
+.polaroids .polariod:nth-child(5n) a {
     -webkit-transform: rotate(5deg);
     -moz-transform: rotate(5deg);
     transform: rotate(5deg);
@@ -395,63 +224,27 @@ section h2 {
     right: 5px;
 }
 
-#aptigram .polaroids .polariod:nth-child(8n) a {
+.polaroids .polariod:nth-child(8n) a {
     position: relative;
     top: 8px;
     right: 5px;
 }
 
-#aptigram .polaroids .polariod:nth-child(11n) a {
+.polaroids .polariod:nth-child(11n) a {
     position: relative;
     top: 3px;
     left: -5px;
 }
 
-#aptigram .polaroids img {
-    max-width: 100%;
+.polaroids img {
+    max-width: 200px;
     margin-bottom: 5px;
 }
 
-#aptigram .polaroids .location {
+.polaroids .location {
     display: block;
     font-size: 10px;
     text-align: left;
     padding: 0 0 0 5px;
     margin-bottom: 5px;
-}
-
-.section-img-container {
-    width: auto;
-    margin-bottom: 1em;
-}
-
-.section-img {
-    float: none;
-}
-
-.hidden-link {
-    color: #fff;
-}
-
-.hidden-link:hover {
-    color: #e55;
-}
-
-@media only screen and (max-width: 380px) {
-    main > section h2 {
-        margin-left: -0.75rem;
-        margin-right: -0.75rem;
-        letter-spacing: -3px;
-    }
-}
-
-@media only screen and (min-width: 540px) {
-    .section-img-container {
-        max-width: 60%;
-        float: left;
-        padding-right: 30px;
-    }
-    .section-img {
-        float: left;
-    }
 }
