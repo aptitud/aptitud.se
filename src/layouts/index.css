@@ -118,7 +118,7 @@ main > section {
     background-color: #febe10;
 }
 
-main > section:last-child {
+main section:last-child {
     border-bottom: 0 none;
 }
 
