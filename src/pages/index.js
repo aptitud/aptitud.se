@@ -58,7 +58,6 @@ export const query = graphql`
                             url
                         }
                     }
-                    blog
                     description {
                         description
                     }
