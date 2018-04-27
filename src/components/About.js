@@ -4,25 +4,26 @@ import Image from './Image'
 import Container from './Container'
 
 export default ({ content: { header, content, image } }) => (
-    <Section
+  <Section
+    css={`
+      background-color: #1e859a;
+    `}
+  >
+    <Container>
+      <Section.Header degree={1}>{header}</Section.Header>
+      <Section.Text
+        dangerouslySetInnerHTML={{
+          __html: content,
+        }}
+      />
+      <Image
         css={`
-            background-color: #1e859a;
-        `}>
-        <Container>
-            <Section.Header degree={1}>{header}</Section.Header>
-            <p
-                dangerouslySetInnerHTML={{
-                    __html: content,
-                }}
-            />
-            <Image
-                css={`
-                    display: block;
-                    width: 50%;
-                    margin: 50px auto;
-                `}
-                src={image}
-            />
-        </Container>
-    </Section>
+          display: block;
+          width: 50%;
+          margin: 50px auto;
+        `}
+        src={image}
+      />
+    </Container>
+  </Section>
 )
