@@ -21,6 +21,10 @@ const Header = styled.h2`
 const Text = styled.div`
   font-size: 1.68rem;
   font-weight: 200;
+
+  @media only screen and (max-width: 1000px) {
+    font-size: 1.4rem;
+  }
 `
 
 Section.Header = Header

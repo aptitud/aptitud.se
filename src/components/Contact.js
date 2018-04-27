@@ -69,7 +69,7 @@ class Contact extends React.Component {
                   href="https://www.google.se/maps/place/Stora+Nygatan+7,+111+27+Stockholm/@59.3271399,18.0506839,13.81z/data=!4m2!3m1!1s0x465f77e21038bb13:0x7addcf9e0003c278"
                   target="_blank"
                 >
-                  Visa karta
+                  <strong>Visa karta</strong>
                 </a>
               </Card>
               <Card>
