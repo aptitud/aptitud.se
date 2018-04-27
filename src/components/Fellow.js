@@ -25,7 +25,7 @@ const FellowImage = ({ image }) => (
     <Image
         className="circle responsive-img"
         alt=""
-        src={image ? image.file.url : `medarbetare/profile_pic.png`}
+        src={image ? image.file.url : `profile_pic.png`}
     />
 )
 
