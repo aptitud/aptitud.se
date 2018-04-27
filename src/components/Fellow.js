@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from './Image'
+import FontAwesomeIcon from './FontAwesomeIcon'
+import styled from 'react-emotion'
 
 const safeUpEmailAddresses = (evt, name) => {
   evt.preventDefault()
@@ -14,81 +16,78 @@ const safeUpEmailAddresses = (evt, name) => {
   location.href = `mailto:${mailtoVal}@aptitud.se`
 }
 
-const serviceToFontAwesome = name => {
-  if (name === 'blog') return 'globe'
-  return name
-}
+const UnorderedList = ({ children }) => (
+  <ul
+    css={`
+      background-color: #eee;
+      padding: 0 10px 10px 10px;
 
-export default ({ name, description, services, phone, blog, image }) => {
-  return (
-    <div
+      li {
+        display: inline-block;
+        margin-top: 10px;
+      }
+    `}
+  >
+    {children}
+  </ul>
+)
+
+const FellowWrapper = styled.div`
+  background-color: #fff;
+  break-inside: avoid;
+`
+
+export default ({ name, description, services, phone, blog, image }) => (
+  <FellowWrapper>
+    <Image
+      alt=""
       css={`
-        background-color: #fff;
-        break-inside: avoid;
-
-        p,
-        h4 {
-          padding: 0 20px;
-        }
-
-        p {
-          font-weight: 100;
-        }
-
-        img {
-          width: 100%;
-        }
-
-        h4 {
-          margin: 10px 0 0 0;
-          font-weight: 300;
-          font-size: 1.5em;
-        }
-
-        ul {
-          background-color: #eee;
-          padding: 20px;
-        }
-
-        ul li {
-          display: inline-block;
-        }
-
-        ul li i {
-          font-size: 1.5em;
-        }
+        width: 100%;
+      `}
+      src={image ? image.file.url : `profile_pic.png`}
+    />
+    <h4
+      css={`
+        margin: 10px 0 0 0;
+        padding: 0 10px 0 10px;
+        font-weight: 300;
+        font-size: 1.5em;
       `}
     >
-      <Image alt="" src={image ? image.file.url : `profile_pic.png`} />
-      <h4>{name}</h4>
-      {description && <p>{description.description}</p>}
-      <ul>
+      {name}
+    </h4>
+    {description && (
+      <p
+        css={`
+          padding: 0 10px;
+        `}
+      >
+        {description.description}
+      </p>
+    )}
+    <UnorderedList>
+      <li>
+        <FontAwesomeIcon.Link
+          onClick={e => safeUpEmailAddresses(e, name)}
+          rel="email"
+          href={`[email]${name}`}
+          icon="envelope"
+        />
+      </li>
+      {phone && (
         <li>
-          <a
-            onClick={e => safeUpEmailAddresses(e, name)}
-            rel="email"
-            href={`[email]${name}`}
-            title={`Skicka e-post till ${name}`}
-          >
-            <i className="fa fa-envelope fa-fw" />
-          </a>
+          <FontAwesomeIcon.Link href={`tel:${phone}`} icon="phone" />
         </li>
-        {phone && (
-          <li>
-            <a href={`tel:${phone}`}>
-              <i className="fa fa-phone fa-fw" />
-            </a>
-          </li>
-        )}
-        {services &&
-          services.map((s, i) => (
-            <li key={i}>
-              <a href={s.url} target="_blank">
-                <i className={`fa fa-${serviceToFontAwesome(s.name)} fa-fw`} />
-              </a>
-            </li>
-          ))}
-      </ul>
-    </div>
-  )
-}
+      )}
+      {(services || []).map(s => (
+        <li key={s.name}>
+          <FontAwesomeIcon.Link
+            href={s.url}
+            target="_blank"
+            icon={s.name.replace('blog', 'globe')}
+          />
+        </li>
+      ))}
+    </UnorderedList>
+  </FellowWrapper>
+)

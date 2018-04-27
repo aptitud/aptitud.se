@@ -8,41 +8,41 @@ require('dotenv').config()
 // allInstagramJson which is the contents of the json file, e.g. an array of posts from instagram
 
 const LoadRecent = async ({ accessToken, itemsCount }) => {
-    try {
-        const response = await get(
-            `https://api.instagram.com/v1/users/self/media/recent/?access_token=${accessToken}&count=${itemsCount}`,
-        )
+  try {
+    const response = await get(
+      `https://api.instagram.com/v1/users/self/media/recent/?access_token=${accessToken}&count=${itemsCount}`,
+    )
 
-        const { data } = response.data
+    const { data } = response.data
 
-        const images = data.map(item => ({
-            url: item.images.low_resolution.url,
-            caption: item.caption && item.caption.text && item.caption.text,
-            location: item.location && item.location.name,
-            id: item.id,
-        }))
+    const images = data.map(item => ({
+      url: item.images.low_resolution.url,
+      caption: item.caption && item.caption.text && item.caption.text,
+      location: item.location && item.location.name,
+      id: item.id,
+    }))
 
-        fs.writeFileSync(
-            path.join('./aptigram', 'instagram.json'),
-            JSON.stringify(images, null, 2),
-        )
-    } catch (error) {
-        console.log(error)
-        process.exit(1)
-    }
+    fs.writeFileSync(
+      path.join('./aptigram', 'instagram.json'),
+      JSON.stringify(images, null, 2),
+    )
+  } catch (error) {
+    console.log(error)
+    process.exit(1)
+  }
 }
 
 fs.mkdirSync('./aptigram')
 const token = process.env.INSTAGRAM_ACCESS_TOKEN
 
 if (token) {
-    LoadRecent({ accessToken: token, itemsCount: 12 })
+  LoadRecent({ accessToken: token, itemsCount: 12 })
 } else {
-    console.log(
-        `
+  console.log(
+    `
     You didn't supply an Instagram access token
     add INSTAGRAM_ACCESS_TOKEN='token' to ./.env or add it to process.env
         `,
-    )
-    process.exit(1)
+  )
+  process.exit(1)
 }

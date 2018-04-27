@@ -4,18 +4,10 @@ import Image from './Image'
 import Container from './Container'
 
 export default ({ content: { header, content, image } }) => (
-  <Section
-    css={`
-      background-color: #1e859a;
-    `}
-  >
+  <Section bgColor="#1e859a">
     <Container>
-      <Section.Header degree={1}>{header}</Section.Header>
-      <Section.Text
-        dangerouslySetInnerHTML={{
-          __html: content,
-        }}
-      />
+      <Section.Header rotate={1}>{header}</Section.Header>
+      <Section.Text text={content} />
       <Image
         css={`
           display: block;

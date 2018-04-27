@@ -4,7 +4,6 @@ import styled from 'react-emotion'
 
 const Wrapper = styled.div`
   text-align: center;
-
   img {
     max-height: 50px;
   }
@@ -12,28 +11,30 @@ const Wrapper = styled.div`
 
 export default props => (
   <Wrapper {...props}>
-    <a
-      href="http://www.linkedin.com/company/2660293"
-      target="new"
+    <Image.Link
+      src="linkedin.png"
       title="LinkedIn"
-    >
-      <Image src="linkedin.png" alt="LinkedIn" />
-    </a>
-    <a href="http://twitter.com/Aptitud_Sthlm" target="new" title="Twitter">
-      <Image src="twitter.png" alt="Twitter" />
-    </a>
-    <a
-      href="http://www.facebook.com/aptitudsthlm"
-      target="new"
+      href="http://www.linkedin.com/company/2660293"
+    />
+    <Image.Link
+      src="twitter.png"
+      title="Twitter"
+      href="http://twitter.com/Aptitud_Sthlm"
+    />
+    <Image.Link
+      src="fb.png"
       title="Facebook"
-    >
-      <Image src="fb.png" alt="Facebook" />
-    </a>
-    <a href="http://aptitud.eventbrite.com" target="new" title="EventBrite">
-      <Image src="eventbrite.png" alt="EventBrite" />
-    </a>
-    <a href="http://www.youtube.com/aptitudsthlm" target="new" title="YouTube">
-      <Image src="youtube.png" alt="YouTube" />
-    </a>
+      href="http://www.facebook.com/aptitudsthlm"
+    />
+    <Image.Link
+      src="eventbrite.png"
+      title="EventBrite"
+      href="http://aptitud.eventbrite.com"
+    />
+    <Image.Link
+      src="youtube.png"
+      title="YouTube"
+      href="http://www.youtube.com/aptitudsthlm"
+    />
   </Wrapper>
 )

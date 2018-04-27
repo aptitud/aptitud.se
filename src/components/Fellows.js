@@ -4,18 +4,11 @@ import Fellow from './Fellow'
 import Container from './Container'
 
 export default ({ content: { header, content }, fellows }) => (
-  <Section
-    css={`
-      background-color: #f63;
-    `}
-  >
+  <Section bgColor="#f63">
     <Container>
-      <Section.Header degree={7}>{header}</Section.Header>
-      <Section.Text
-        dangerouslySetInnerHTML={{
-          __html: content,
-        }}
-      />
+      <Section.Header rotate={4}>{header}</Section.Header>
+      <Section.Text text={content} />
+
       <div
         css={`
           color: #000;

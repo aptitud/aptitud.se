@@ -1,32 +1,32 @@
 {
-    "name": "Aptitud",
-    "description": "Aptitud.se",
-    "version": "1.0.0",
-    "author": "Jan Banan",
-    "dependencies": {
-        "axios": "^0.17.1",
-        "dotenv": "^4.0.0",
-        "emotion": "^8.0.12",
-        "emotion-server": "^8.0.12",
-        "gatsby": "^1.9.199",
-        "gatsby-link": "^1.6.32",
-        "gatsby-plugin-emotion": "^1.1.11",
-        "gatsby-plugin-react-helmet": "^1.0.8",
-        "gatsby-source-contentful": "^1.3.47",
-        "gatsby-source-filesystem": "^1.5.19",
-        "gatsby-transformer-json": "^1.0.15",
-        "gatsby-transformer-remark": "^1.7.29",
-        "react-emotion": "^9.1.2"
-    },
-    "license": "MIT",
-    "scripts": {
-        "start": "yarn develop",
-        "build": "yarn && node InstagramService.js && gatsby build",
-        "develop": "yarn clean && node InstagramService.js && gatsby develop",
-        "clean": "rm -rf ./.cache && rm -rf ./aptigram",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "devDependencies": {
-        "prettier": "^1.9.2"
-    }
+  "name": "aptitud",
+  "description": "Aptitud.se",
+  "version": "1.0.0",
+  "author": "Jan Banan",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "dotenv": "^4.0.0",
+    "emotion": "^8.0.12",
+    "emotion-server": "^8.0.12",
+    "gatsby": "^1.9.199",
+    "gatsby-link": "^1.6.32",
+    "gatsby-plugin-emotion": "^1.1.11",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-source-contentful": "^1.3.47",
+    "gatsby-source-filesystem": "^1.5.19",
+    "gatsby-transformer-json": "^1.0.15",
+    "gatsby-transformer-remark": "^1.7.29",
+    "react-emotion": "^9.1.2"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn develop",
+    "build": "yarn && node InstagramService.js && gatsby build",
+    "develop": "yarn clean && node InstagramService.js && gatsby develop",
+    "clean": "rm -rf ./.cache && rm -rf ./aptigram",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.9.2"
+  }
 }
