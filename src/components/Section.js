@@ -12,10 +12,9 @@ const Header = styled.h2`
   margin-top: 20px;
   text-align: center;
   text-transform: lowercase;
-  font-family: sans-serif;
-  font-size: 80px;
+  font-size: 5em;
+  font-weight: 400;
   text-shadow: 0 7px 0 rgba(0, 0, 0, 0.15);
-  -webkit-font-smoothing: initial;
   transform: rotate(${props => props.degree}deg);
 `
 

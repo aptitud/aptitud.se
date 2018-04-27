@@ -41,8 +41,8 @@ export default ({ name, description, services, phone, blog, image }) => {
 
         h4 {
           margin: 10px 0 0 0;
-          font-weight: 100;
-          font-size: 2em;
+          font-weight: 300;
+          font-size: 1.5em;
         }
 
         ul {
