@@ -18,7 +18,7 @@ const Header = styled.h2`
   font-size: 5em;
   font-weight: 400;
   text-shadow: 0 7px 0 rgba(0, 0, 0, 0.15);
-  transform: rotate(${props => props.rotate}deg);
+  transform: rotate(${props => props.rotate || 0}deg);
 `
 
 const Text = ({ text }) => (

@@ -17,25 +17,22 @@ const getPageForName = ({ edges: pages }, name) => {
     : {}
 }
 
-export default ({ data }) => {
-  console.log(data.socialIcons.edges)
-  return (
-    <main>
-      <Logo socialIcons={data.socialIcons.edges.map(e => e.node)} />
-      <About content={getPageForName(data.pages, 'About')} />
-      <Aday content={getPageForName(data.pages, 'Aday')} />
-      <Fellows
-        content={getPageForName(data.pages, 'Fellows')}
-        fellows={data.fellows.edges.map(e => e.node)}
-      />
-      <Aptigram posts={data.aptigram.edges.map(e => e.node)} />
-      <Contact
-        content={data.contact.edges[0].node}
-        socialIcons={data.socialIcons.edges.map(e => e.node)}
-      />
-    </main>
-  )
-}
+export default ({ data }) => (
+  <main>
+    <Logo socialIcons={data.socialIcons.edges.map(e => e.node)} />
+    <About content={getPageForName(data.pages, 'About')} />
+    <Aday content={getPageForName(data.pages, 'Aday')} />
+    <Fellows
+      content={getPageForName(data.pages, 'Fellows')}
+      fellows={data.fellows.edges.map(e => e.node)}
+    />
+    <Aptigram posts={data.aptigram.edges.map(e => e.node)} />
+    <Contact
+      content={data.contact.edges[0].node}
+      socialIcons={data.socialIcons.edges.map(e => e.node)}
+    />
+  </main>
+)
 
 export const query = graphql`
   query IndexPageQuery {

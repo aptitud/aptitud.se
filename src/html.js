@@ -36,7 +36,6 @@ module.exports = class HTML extends React.Component {
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
           <link rel="icon" href={Favicon} />
-
           <link
             rel="stylesheet"
             href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
