@@ -51,7 +51,7 @@ export default ({ name, description, services, phone, blog, image }) => (
         margin: 10px 0 0 0;
         padding: 0 10px 0 10px;
         font-weight: 300;
-        font-size: 1.5em;
+        font-size: 2em;
       `}
     >
       {name}

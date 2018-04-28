@@ -11,6 +11,7 @@ const Section = styled.section`
 
 const Header = styled.h2`
   margin-top: 20px;
+  max-width: 90%;
   margin-bottom: 40px;
   text-align: center;
   text-transform: lowercase;

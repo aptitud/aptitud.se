@@ -10,27 +10,17 @@ const Card = styled.div`
   padding: 40px;
   white-space: pre;
   margin: 0 auto 20px auto;
-  width: 100%;
   background-color: #eee;
+  font-size: 1.5rem;
 
   h3 {
     font-weight: 300;
     margin: 0;
-    font-size: 2em;
+    font-size: 2rem;
   }
 
   p {
     margin: 0;
-    font-size: 1.5rem;
-  }
-
-  @media only screen and (max-width: 1000px) {
-    width: 50%;
-    padding: 20px;
-
-    h3 {
-      font-size: 1.2em;
-    }
   }
 `
 
@@ -74,7 +64,7 @@ export default ({
       <SocialIcons
         css={`
           width: 50%;
-          margin: 40px auto;
+          margin: 60px auto 0 auto;
         `}
       />
     </Container>
