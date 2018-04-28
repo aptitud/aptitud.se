@@ -13,12 +13,6 @@ const Card = styled.div`
   background-color: #eee;
   font-size: 1.5rem;
 
-  h3 {
-    font-weight: 300;
-    margin: 0;
-    font-size: 2rem;
-  }
-
   p {
     margin: 0;
   }
@@ -26,6 +20,7 @@ const Card = styled.div`
 
 export default ({
   content: { header, postalAddress, visitingAddress, image },
+  socialIcons,
 }) => (
   <Section bgColor="#febe10">
     <Container>
@@ -62,9 +57,9 @@ export default ({
         </div>
       </div>
       <SocialIcons
+        socialIcons={socialIcons}
         css={`
-          width: 50%;
-          margin: 60px auto 0 auto;
+          margin-top: 100px;
         `}
       />
     </Container>

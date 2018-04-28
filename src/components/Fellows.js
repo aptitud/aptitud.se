@@ -8,18 +8,14 @@ export default ({ content: { header, content }, fellows }) => (
     <Container>
       <Section.Header rotate={4}>{header}</Section.Header>
       <Section.Text text={content} />
-
       <div
         css={`
-          color: #000;
           @media only screen and (min-width: 601px) {
             column-count: 2;
           }
-
           @media only screen and (min-width: 901px) {
             column-count: 3;
           }
-
           @media only screen and (min-width: 1200px) {
             column-count: 4;
             max-width: 1200px;

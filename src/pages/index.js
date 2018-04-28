@@ -1,14 +1,13 @@
 import React from 'react'
+import Logo from '../components/Logo'
 import About from '../components/About'
 import Aday from '../components/Aday'
 import Contact from '../components/Contact'
 import Fellows from '../components/Fellows'
 import Aptigram from '../components/Aptigram'
 
-const getNodesFromEdges = ({ edges }) => edges.map(edge => edge.node)
-
 const getPageForName = ({ edges: pages }, name) => {
-  const result = pages.filter(x => x.node.name === name)[0]
+  const result = pages.find(x => x.node.name === name)
   return result
     ? {
         header: result.node.header,
@@ -19,18 +18,22 @@ const getPageForName = ({ edges: pages }, name) => {
 }
 
 export default ({ data }) => {
-  console.log(data.contact.edges[0].node)
+  console.log(data.socialIcons.edges)
   return (
-    <div>
+    <main>
+      <Logo socialIcons={data.socialIcons.edges.map(e => e.node)} />
       <About content={getPageForName(data.pages, 'About')} />
       <Aday content={getPageForName(data.pages, 'Aday')} />
       <Fellows
         content={getPageForName(data.pages, 'Fellows')}
-        fellows={getNodesFromEdges(data.fellows)}
+        fellows={data.fellows.edges.map(e => e.node)}
       />
-      <Aptigram posts={getNodesFromEdges(data.aptigram)} />
-      <Contact content={data.contact.edges[0].node} />
-    </div>
+      <Aptigram posts={data.aptigram.edges.map(e => e.node)} />
+      <Contact
+        content={data.contact.edges[0].node}
+        socialIcons={data.socialIcons.edges.map(e => e.node)}
+      />
+    </main>
   )
 }
 
@@ -80,6 +83,20 @@ export const query = graphql`
           content {
             childMarkdownRemark {
               html
+            }
+          }
+        }
+      }
+    }
+    socialIcons: allContentfulSocialIcon {
+      edges {
+        node {
+          id
+          name
+          link
+          icon {
+            file {
+              url
             }
           }
         }

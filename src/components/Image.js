@@ -1,12 +1,6 @@
 import React from 'react'
 
-const Image = ({ src, ...props }) => {
-  const isAbsolutePath = /\/\//.test(src)
-
-  return (
-    <img src={isAbsolutePath ? src : require(`../images/${src}`)} {...props} />
-  )
-}
+const Image = ({ src, ...props }) => <img src={src} {...props} />
 
 const Link = ({ href, title, src }) => (
   <a href={href} target="new" title={title}>

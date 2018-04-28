@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from './Image'
 import FontAwesomeIcon from './FontAwesomeIcon'
+import NoPic from '../images/profile.png'
 import styled from 'react-emotion'
 
 const safeUpEmailAddresses = (evt, name) => {
@@ -16,56 +17,37 @@ const safeUpEmailAddresses = (evt, name) => {
   location.href = `mailto:${mailtoVal}@aptitud.se`
 }
 
-const UnorderedList = ({ children }) => (
-  <ul
-    css={`
-      background-color: #eee;
-      padding: 0 10px 10px 10px;
+const List = styled.ul`
+  background-color: #eee;
+  padding: 0 10px 10px 10px;
 
-      li {
-        display: inline-block;
-        margin-top: 10px;
-      }
-    `}
-  >
-    {children}
-  </ul>
-)
-
-const FellowWrapper = styled.div`
-  background-color: #fff;
-  break-inside: avoid;
+  li {
+    display: inline-block;
+    margin-top: 10px;
+  }
 `
 
-export default ({ name, description, services, phone, blog, image }) => (
-  <FellowWrapper>
+const Wrapper = styled.div`
+  background-color: #fff;
+  break-inside: avoid;
+  color: #000;
+  > :not(img) :not(ul) {
+    padding: 0 10px;
+  }
+`
+
+export default ({ name, description, services, phone, image }) => (
+  <Wrapper>
     <Image
-      alt=""
       css={`
         width: 100%;
+        margin-bottom: 10px;
       `}
-      src={image ? image.file.url : `profile_pic.png`}
+      src={image ? image.file.url : NoPic}
     />
-    <h4
-      css={`
-        margin: 10px 0 0 0;
-        padding: 0 10px 0 10px;
-        font-weight: 300;
-        font-size: 2em;
-      `}
-    >
-      {name}
-    </h4>
-    {description && (
-      <p
-        css={`
-          padding: 0 10px;
-        `}
-      >
-        {description.description}
-      </p>
-    )}
-    <UnorderedList>
+    <h3>{name}</h3>
+    <p>{description.description}</p>
+    <List>
       <li>
         <FontAwesomeIcon.Link
           onClick={e => safeUpEmailAddresses(e, name)}
@@ -88,6 +70,6 @@ export default ({ name, description, services, phone, blog, image }) => (
           />
         </li>
       ))}
-    </UnorderedList>
-  </FellowWrapper>
+    </List>
+  </Wrapper>
 )

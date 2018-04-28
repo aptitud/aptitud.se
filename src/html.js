@@ -1,4 +1,5 @@
 import React from 'react'
+import Favicon from './images/favicon.png'
 
 let stylesStr
 if (process.env.NODE_ENV === `production`) {
@@ -25,10 +26,17 @@ module.exports = class HTML extends React.Component {
         <head>
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+          <meta name="keywords" content="aptitud" />
+          <meta
+            name="description"
+            content="Jävlaranamma, glädje &amp; transparens "
+          />
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
+          <link rel="icon" href={Favicon} />
+
           <link
             rel="stylesheet"
             href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
