@@ -36,7 +36,7 @@ fs.mkdirSync('./aptigram')
 const token = process.env.INSTAGRAM_ACCESS_TOKEN
 
 if (token) {
-  LoadRecent({ accessToken: token, itemsCount: 12 })
+  LoadRecent({ accessToken: token, itemsCount: process.env.APTIGRAM_IMAGES || 12 })
 } else {
   console.log(
     `
