@@ -23,10 +23,11 @@
     "start": "yarn develop",
     "build": "yarn && node InstagramService.js && gatsby build",
     "develop": "yarn clean && node InstagramService.js && gatsby develop",
-    "clean": "rm -rf ./.cache && rm -rf ./aptigram",
+    "clean": "rimraf ./.cache && rimraf ./aptigram",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^1.9.2"
+    "prettier": "^1.9.2",
+    "rimraf": "^2.6.2"
   }
 }
