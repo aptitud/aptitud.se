@@ -42,12 +42,18 @@ const InstagramImage = ({ caption, location, url }) => (
       :nth-child(5n) a {
         transform: rotate(5deg);
       }
+      @media only screen and (max-width: 992px) {
+        width: 50%;
+      }
     `}
   >
     <a href="http://www.instagram.com/aptitud_sthlm/" title={caption}>
       <img
         css={`
           max-width: 200px;
+          @media only screen and (max-width: 992px) {
+            width: 100%;
+          }
         `}
         src={url}
       />

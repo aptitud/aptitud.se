@@ -10,6 +10,7 @@ export default ({ content: { header, content }, fellows }) => (
       <Section.Text text={content} />
       <div
         css={`
+          column-count: 2;
           @media only screen and (min-width: 601px) {
             column-count: 2;
           }
