@@ -23,7 +23,6 @@ const Header = styled.h2`
     font-size: 4rem;
     margin-bottom: 10px;
     max-width: 90%;
-    text-align: center; 
   }
 `
 
