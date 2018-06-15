@@ -22,6 +22,8 @@ const Header = styled.h2`
   @media only screen and (max-width: 992px) {
     font-size: 4rem;
     margin-bottom: 10px;
+    max-width: 90%;
+    text-align: center; 
   }
 `
 
