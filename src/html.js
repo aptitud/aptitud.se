@@ -44,6 +44,7 @@ module.exports = class HTML extends React.Component {
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Roboto:100,300,400"
           />
+          <title>Aptitud - enklare, gladare, roligare</title>
           {this.props.headComponents}
           {css}
         </head>
