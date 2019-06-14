@@ -44,7 +44,7 @@ export default ({ name, description, services, phone, image }) => (
         width: 100%;
         margin-bottom: 10px;
       `}
-      src={image ? image.file.url : NoPic}
+      src={image ? image.file.url + '?fm=jpg&fl=progressive&w=300&q=80' : NoPic}
     />
     <h3>{name}</h3>
     <p>{description.description}</p>
