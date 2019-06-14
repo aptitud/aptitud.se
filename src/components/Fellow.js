@@ -60,12 +60,14 @@ export default ({ name, description, services, phone, image }) => (
       </li>
       {phone && (
         <li>
-          <FontAwesomeIcon.Link href={`tel:${phone}`} icon="phone" />
+          <FontAwesomeIcon.Link aria-label="phone" href={`tel:${phone}`} icon="phone" />
         </li>
       )}
       {(services || []).map(s => (
         <li key={s.name}>
           <FontAwesomeIcon.Link
+            rel="noopener"
+            rel="noreferrer"
             href={s.url}
             aria-label={s.name}
             target="_blank"
