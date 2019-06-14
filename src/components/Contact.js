@@ -39,7 +39,7 @@ export default ({ content: { header, postalAddress, visitingAddress, image }, so
           }
         `}
       >
-        <Image src={image.file.url} alt="Map" />
+        <Image src={image.file.url + '?fm=png&fl=png8'} alt="Map" />
         <div>
           <Card
             dangerouslySetInnerHTML={{

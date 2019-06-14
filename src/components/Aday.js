@@ -15,7 +15,7 @@ export default ({ content: { header, content, image } }) => (
           width: 50%;
           margin: 50px auto;
         `}
-        src={image}
+        src={image + '?fm=png&fl=png8'}
       />
     </Container>
   </Section>
