@@ -19,7 +19,7 @@ export default ({ socialIcons }) => (
       }
     `}
   >
-    <Image src={Logo} />
+    <Image src={Logo} alt="Logo" />
     <SocialIcons
       socialIcons={socialIcons}
       css={`

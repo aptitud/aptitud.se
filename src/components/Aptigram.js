@@ -49,6 +49,7 @@ const InstagramImage = ({ caption, location, url }) => (
   >
     <a href="http://www.instagram.com/aptitud_sthlm/" title={caption}>
       <img
+        alt={caption}
         css={`
           max-width: 200px;
           @media only screen and (max-width: 992px) {

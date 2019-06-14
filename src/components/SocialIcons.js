@@ -13,12 +13,7 @@ const Wrapper = styled.div`
 export default ({ socialIcons, ...props }) => (
   <Wrapper {...props}>
     {socialIcons.map(socialIcon => (
-      <Image.Link
-        key={socialIcon.name}
-        src={socialIcon.icon.file.url}
-        title={socialIcon.name}
-        href={socialIcon.link}
-      />
+      <Image.Link key={socialIcon.name} src={socialIcon.icon.file.url} title={socialIcon.name} href={socialIcon.link} />
     ))}
   </Wrapper>
 )

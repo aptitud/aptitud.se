@@ -9,6 +9,7 @@ export default ({ content: { header, content, image } }) => (
       <Section.Header rotate={1}>{header}</Section.Header>
       <Section.Text text={content} />
       <Image
+        alt="About logo"
         css={`
           display: block;
           width: 50%;

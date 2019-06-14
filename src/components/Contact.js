@@ -18,10 +18,7 @@ const Card = styled.div`
   }
 `
 
-export default ({
-  content: { header, postalAddress, visitingAddress, image },
-  socialIcons,
-}) => (
+export default ({ content: { header, postalAddress, visitingAddress, image }, socialIcons }) => (
   <Section bgColor="#febe10">
     <Container>
       <Section.Header rotate={1}>{header}</Section.Header>
@@ -42,7 +39,7 @@ export default ({
           }
         `}
       >
-        <Image src={image.file.url} />
+        <Image src={image.file.url} alt="Map" />
         <div>
           <Card
             dangerouslySetInnerHTML={{

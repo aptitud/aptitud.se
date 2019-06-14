@@ -39,6 +39,7 @@ const Wrapper = styled.div`
 export default ({ name, description, services, phone, image }) => (
   <Wrapper>
     <Image
+      alt={name}
       css={`
         width: 100%;
         margin-bottom: 10px;
@@ -51,6 +52,7 @@ export default ({ name, description, services, phone, image }) => (
       <li>
         <FontAwesomeIcon.Link
           onClick={e => safeUpEmailAddresses(e, name)}
+          aria-label="Email"
           rel="email"
           href={`[email]${name}`}
           icon="envelope"
@@ -65,6 +67,7 @@ export default ({ name, description, services, phone, image }) => (
         <li key={s.name}>
           <FontAwesomeIcon.Link
             href={s.url}
+            aria-label={s.name}
             target="_blank"
             icon={s.name.replace('blog', 'globe')}
           />

@@ -21,8 +21,8 @@
   "license": "MIT",
   "scripts": {
     "start": "yarn develop",
-    "build": "yarn && node InstagramService.js && gatsby build",
-    "develop": "yarn clean && node InstagramService.js && gatsby develop",
+    "build": "yarn && node instagram-service.js && gatsby build",
+    "develop": "yarn clean && node instagram-service.js && gatsby develop",
     "clean": "rimraf ./.cache && rimraf ./aptigram",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

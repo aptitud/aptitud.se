@@ -9,6 +9,7 @@ export default ({ content: { header, content, image } }) => (
       <Section.Header rotate={-2}>Roligare</Section.Header>
       <Section.Text text={content} />
       <Image
+        alt="Aptitud day logo"
         css={`
           display: block;
           width: 50%;
