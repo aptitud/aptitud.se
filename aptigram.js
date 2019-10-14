@@ -8,7 +8,7 @@ request
     json: true
   })
   .then(({ data }) =>
-    data.map(({ id, images, caption, location }) => ({
+    data.map(({ images, caption, location }) => ({
       url: images.low_resolution.url,
       caption: caption && caption.text,
       location: location && location.name
