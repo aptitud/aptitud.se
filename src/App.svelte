@@ -1,18 +1,15 @@
 <script>
-  import { onMount } from "svelte";
+  import Hero from "./Hero.svelte";
   import images from "./aptigram.json";
 
   export let name;
 </script>
 
 <style>
-  h1 {
-    color: red;
+  :global(body) {
+    margin: 0;
   }
 </style>
 
-<h1>Hello {name}!</h1>
-
-{#each images as { url, caption, text }}
-  <img src={url} alt={caption} />
-{/each}
+<Hero />
+<h1>Heldsfuv lo {name}!</h1>
