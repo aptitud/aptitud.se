@@ -1,6 +1,6 @@
 import App from './App.svelte'
 
-export default typeof window === undefined
+export default process
   ? App
   : new App({
       target: document.body,

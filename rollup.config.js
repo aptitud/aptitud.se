@@ -12,7 +12,7 @@ export default {
   input: 'src/main.js',
   output: {
     sourcemap: true,
-    format: process.env.NETLIFY ? 'cjs' : 'iife',
+    format: production ? 'cjs' : 'iife',
     name: 'app',
     file: 'public/bundle.js',
   },
@@ -26,7 +26,7 @@ export default {
       css: css => {
         css.write('public/bundle.css')
       },
-      generate: process.env.NETLIFY ? 'ssr' : 'dom',
+      generate: production ? 'ssr' : 'dom',
     }),
 
     json({
@@ -67,7 +67,7 @@ export default {
 
     // If we're building for production (npm run build
     // instead of npm run dev), minify
-    production && process.env.NETLIFY && terser(),
+    production && terser(),
   ],
   watch: {
     clearScreen: false,

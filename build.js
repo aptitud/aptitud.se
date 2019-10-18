@@ -1,8 +1,12 @@
 const fs = require('fs')
+const { JSDOM } = require('jsdom')
 
-if (!process.env.NETLIFY) {
-  return
-}
+const dom = new JSDOM()
+global.document = dom.window.document
+global.HTMLElement = dom.window.HTMLElement
+global.HTMLAnchorElement = dom.window.HTMLAnchorElement
+global.HTMLImageElement = dom.window.HTMLImageElement
+global.HTMLBRElement = dom.window.HTMLBRElement
 
 const app = require('./public/bundle.js').render()
 let index = fs.readFileSync('./public/index.html').toString('utf-8')
