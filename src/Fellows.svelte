@@ -20,12 +20,8 @@
       column-count: 2;
     }
 
-    @media only screen and (min-width: 901px) {
-      column-count: 3;
-    }
-
     @media only screen and (min-width: 1200px) {
-      column-count: 4;
+      column-count: 3;
       max-width: 1200px;
       margin: 0 auto;
     }
