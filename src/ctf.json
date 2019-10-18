@@ -1,0 +1,1005 @@
+{
+  "fellow": [
+    {
+      "name": "Åsa Fogelin",
+      "description": "Erfaren ledare inom it med stor drivkraft att förbättra. Gillar att arbeta med målsättningar och visioner och att få team och medarbetare att växa i uppgifter och utmana sig själva. Älskar att leda retros och workshops.\n",
+      "image": {
+        "title": "IMG 4776",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/77on3ZK5hAcZNUBeOoj9n7/fa6faec7bc334ce4bff7050477a884f1/IMG_4776.jpg",
+          "details": {
+            "size": 413415,
+            "image": {
+              "width": 972,
+              "height": 1297
+            }
+          },
+          "fileName": "IMG_4776.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Roya Naini",
+      "description": "Nyfiken utvecklare som älskar hitta kreativa och enkla lösningar till olika tekniska problem. Värdesätter kommunikation, transparens och inklusivitet. Prisbelönad synthmusiker som släppar skivor och spelar live.",
+      "image": {
+        "title": "roya",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/1indakkWqTKxuupXLTwdRj/24cd2089d22b1af71a6aeded6e9582ef/roya.jpg",
+          "details": {
+            "size": 68162,
+            "image": {
+              "width": 472,
+              "height": 482
+            }
+          },
+          "fileName": "roya.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Johan Elmström",
+      "description": "Utvecklare som gillar enkla, rena,  lösningar, ContinuousDelivery och att lära sig nya saker. Gift tvåbarnsfar som spelar golf och tennis när det ges tillfälle (dvs nästan aldrig).",
+      "phone": "0733-585661",
+      "services": [
+        {
+          "name": "twitter",
+          "url": "http://twitter.com/j_elmstrom"
+        },
+        {
+          "name": "github",
+          "url": "http://github.com/jelmstrom"
+        }
+      ],
+      "image": {
+        "title": "johane",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/3o0yMZCDcsWaYSMkYSQoek/15ac6c1997dff63cc17946baab371fa1/johane.jpg",
+          "details": {
+            "size": 93674,
+            "image": {
+              "width": 350,
+              "height": 350
+            }
+          },
+          "fileName": "johane.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Anders Ljusberg",
+      "description": "Utvecklare/arkitekt som gärna jobbar händelsebaserat och asynkront. Ägnar en del fritid åt att arrangera Swenug-meetups och .NET-konferensen Swetugg. ",
+      "phone": "0733-829688",
+      "services": [
+        {
+          "name": "twitter",
+          "url": "https://twitter.com/CodingInsomnia"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/ljusberg/"
+        },
+        {
+          "name": "github",
+          "url": "https://github.com/andlju"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/codinginsomnia/"
+        }
+      ],
+      "image": {
+        "title": "Anders Ljusberg",
+        "description": "Anders Ljusberg, Aptitud",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/5GrCq7J4JOuSEc0Q8KwqMW/d51e2431a220c558876de11391304305/anders.ljusberg-granada_bw.jpg",
+          "details": {
+            "size": 661890,
+            "image": {
+              "width": 2451,
+              "height": 2404
+            }
+          },
+          "fileName": "anders.ljusberg-granada_bw.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Anders Löwenborg",
+      "description": "Pappa, seglare, informations junkie. Passion för, och inspirerad av människor. Grundare och glad kollega. Jobbar bl a med rekrytering - ring mig om du är nyfiken!",
+      "phone": "0704-619848",
+      "services": [
+        {
+          "name": "twitter",
+          "url": "http://twitter.com/anderslowenborg"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://se.linkedin.com/in/lowenborg"
+        }
+      ],
+      "image": {
+        "title": "andersl",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/3zcJq8O8A8sIu06Y6kMuKE/c370c0f9315bc52382d46536cecea23d/andersl.jpg",
+          "details": {
+            "size": 92627,
+            "image": {
+              "width": 350,
+              "height": 350
+            }
+          },
+          "fileName": "andersl.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Åsa Liljegren",
+      "description": "Utvecklare i .Net-världen som brinner för att lösa svåra problem genom att förenkla kod, arbetssätt och processer. Gäller allt från Javascript till Continuous Delivery.",
+      "phone": "0709-694760",
+      "services": [
+        {
+          "name": "twitter",
+          "url": "http://twitter.com/_asa"
+        },
+        {
+          "name": "github",
+          "url": "http://github.com/asalilje"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://se.linkedin.com/in/åsa-liljegren-ba25aa22"
+        },
+        {
+          "name": "blog",
+          "url": "http://reallyshouldblogthis.blogspot.se"
+        }
+      ],
+      "image": {
+        "title": "asal",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/5ctm0uGCZGM2KsIWq2Ss2Q/6e7499072dd96d2a1ca141f46f18c559/asal.jpg",
+          "details": {
+            "size": 58355,
+            "image": {
+              "width": 233,
+              "height": 350
+            }
+          },
+          "fileName": "asal.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Christian Fredh",
+      "description": "Engagerad utvecklare inom .NET och webb som gillar att göra skillnad. Husse och Södermalmsbo som gillar klättring, tiodans, politik och äventyr.",
+      "phone": "072-213 55 51",
+      "services": [
+        {
+          "name": "linkedin",
+          "url": "https://se.linkedin.com/in/christianfredh"
+        },
+        {
+          "name": "twitter",
+          "url": "https://twitter.com/christianfredh"
+        },
+        {
+          "name": "github",
+          "url": "https://github.com/christianfredh"
+        },
+        {
+          "name": "instagram",
+          "url": "https://instagram.com/christianfredh/"
+        },
+        {
+          "name": "stack-overflow",
+          "url": "http://stackoverflow.com/users/928531/christian-fredh"
+        }
+      ],
+      "image": {
+        "title": "0253e97c6baa0c1daf77d615785736af",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/6xCG38fiXCYaKsaIS4kUiy/8ca648d2100c59a1cb94d0e971703a8d/0253e97c6baa0c1daf77d615785736af.jpeg",
+          "details": {
+            "size": 58096,
+            "image": {
+              "width": 328,
+              "height": 328
+            }
+          },
+          "fileName": "0253e97c6baa0c1daf77d615785736af.jpeg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Emil Ingridsson",
+      "description": "Ödmjuk och engagerad utvecklare som drivs av tekniska utmaningar. Norrlänning som via söder har hamnat söder om söder.",
+      "services": [
+        {
+          "name": "linkedin",
+          "url": "https://se.linkedin.com/in/emil-ingridsson-24113026"
+        },
+        {
+          "name": "twitter",
+          "url": "https://twitter.com/emilingridsson"
+        }
+      ],
+      "image": {
+        "title": "emiing",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/11T8PfVovQYeoMqSaysImA/708290740027b3de2326733c2a6e4e7a/emiing.jpg",
+          "details": {
+            "size": 129192,
+            "image": {
+              "width": 1050,
+              "height": 1279
+            }
+          },
+          "fileName": "emiing.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Emma Ullberg",
+      "description": "Driven och nyfiken teamlead med rötterna i koden. Brinner för agil systemutveckling, teamdynamik och den egna punschverandan. Har en kort men intensiv karriär som smyckesdesigner bakom sig.",
+      "phone": "070-6810902",
+      "services": [
+        {
+          "name": "linkedin",
+          "url": "https://se.linkedin.com/pub/emma-ullberg/3/37b/a80"
+        },
+        {
+          "name": "twitter",
+          "url": "https://twitter.com/emmaullberg"
+        }
+      ],
+      "image": {
+        "title": "emmull",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/4K5KbktBny462s0YU2YKMs/a6f8ab9d69b0b74c94b67a68536943d5/emmull.jpg",
+          "details": {
+            "size": 665302,
+            "image": {
+              "width": 2124,
+              "height": 2628
+            }
+          },
+          "fileName": "emmull.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Marcus Hammarberg",
+      "description": "Coach med agilt/lean fokus och stark koppling till det praktiska. .NET / JavaScript utvecklare i botten. Motto: Få agile att fungera i praktiken! Gift, 3 barn, bott i Indonesien. Har skrivit boken Kanban in Action",
+      "phone": "0768-725878",
+      "services": [
+        {
+          "name": "twitter",
+          "url": "http://twitter.com/marcusoftnet"
+        },
+        {
+          "name": "github",
+          "url": "http://github.com/marcusoftnet"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://se.linkedin.com/in/marcushammarberg"
+        },
+        {
+          "name": "stack-overflow",
+          "url": "http://stackoverflow.com/users/314670/marcus-hammarberg"
+        },
+        {
+          "name": "slideshare",
+          "url": "http://slideshare.net/marcusoftnet/"
+        },
+        {
+          "name": "blog",
+          "url": "http://www.marcusoft.net"
+        }
+      ],
+      "image": {
+        "title": "marham",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/1QTxThmsGE8O0iW4icmWGA/171ff8e703f9d3fa0b4a8670c67fd034/marham.jpg",
+          "details": {
+            "size": 38263,
+            "image": {
+              "width": 220,
+              "height": 288
+            }
+          },
+          "fileName": "marham.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Giovannie Malmqvist",
+      "description": "Glad och lyhörd säljare, tvåbarnsfader, gillar att hänga med i trender och lära sig nya saker",
+      "phone": "070-307 50 78",
+      "services": [
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/giovanniejohanson/"
+        }
+      ],
+      "image": {
+        "title": "giovannie m",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/26DHHyTAAoiaeuggos0QAS/9a6f2764234918a8549fa056fd4f6fb1/giovannie_m.jpg",
+          "details": {
+            "size": 187306,
+            "image": {
+              "width": 935,
+              "height": 921
+            }
+          },
+          "fileName": "giovannie_m.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Håkan Alexander",
+      "description": "Kodande arkitekt med koll på allt som gör utveckling och deploy smidigt och effektivt. Tränar grabbens fotbollslag och hejar när dottern spelar. Hänger i curlinghallen när tid ges mellan barnens aktiviteter eller byggprojekt i huset tillsammans med min fru.",
+      "phone": "073-6544433",
+      "services": [
+        {
+          "name": "twitter",
+          "url": "http://twitter.com/haxen"
+        },
+        {
+          "name": "github",
+          "url": "http://github.com/haxen"
+        }
+      ],
+      "image": {
+        "title": "hakana",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/5huW5gfKK4kOC88gw4kOUy/9de7b54b83fb3ac51d1f0adc46a50534/hakana.jpg",
+          "details": {
+            "size": 62367,
+            "image": {
+              "width": 233,
+              "height": 350
+            }
+          },
+          "fileName": "hakana.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Hampus Klarin",
+      "description": "Glad och noggrann .NET-utvecklare. Hyser en stor passion för gitarrer; bygga, modda, spela... När han är ledig spenderar han helst tiden på resande fot med sin fru.",
+      "phone": "0705-679640",
+      "services": [
+        {
+          "name": "github",
+          "url": "http://github.com/hampusklarin"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/hampusklarin"
+        },
+        {
+          "name": "key",
+          "url": "https://keybase.io/hampusklarin"
+        },
+        {
+          "name": "instagram",
+          "url": "https://instagram.com/hampusklarin"
+        }
+      ],
+      "image": {
+        "title": "hamkla",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/3PnuiVqy5OCC0yk2GI0YmA/c4305d55ab9bf92253450af8aa407c84/hamkla.jpg",
+          "details": {
+            "size": 51639,
+            "image": {
+              "width": 233,
+              "height": 350
+            }
+          },
+          "fileName": "hamkla.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Johannes Gunnbäck",
+      "description": "Filmnörd, dykare, systemutvecklare. Har en näsa för problemlösning och en passion för kodkvalitet, TDD och agile. Tycker det är lika roligt att utvecklar frontend- som backendapplikationer.",
+      "image": {
+        "title": "johannesg",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/58MzXYFJOUYqQAgaGy2OUm/342eaaec3e614499d8ac2211cdf1a6c1/johannesg.jpg",
+          "details": {
+            "size": 64686,
+            "image": {
+              "width": 233,
+              "height": 350
+            }
+          },
+          "fileName": "johannesg.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Fredrik Sundberg",
+      "description": "Utvecklare med fokus på Java, DevOps och Continuous Delivery som försöker göra det svåra så enkelt som möjligt. Trebarnsfar i Årsta med smak för racketsport.",
+      "phone": "0703-442113",
+      "services": [
+        {
+          "name": "github",
+          "url": "https://github.com/KingBuzzer"
+        },
+        {
+          "name": "twitter",
+          "url": "https://twitter.com/fredriksu"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/fredrik-sundberg-84246830"
+        }
+      ],
+      "image": {
+        "title": "Magnus Gustav Retzius. Photograph by Elliott & Fry, 1908. Wellcome L0013126",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/56zNXNHCcwGiAGIMYK2IeW/3c77a17d2ebef21f8178096d7b3ce02a/Magnus_Gustav_Retzius._Photograph_by_Elliott___Fry__1908._Wellcome_L0013126.jpg",
+          "details": {
+            "size": 462468,
+            "image": {
+              "width": 1120,
+              "height": 1069
+            }
+          },
+          "fileName": "Magnus_Gustav_Retzius._Photograph_by_Elliott___Fry__1908._Wellcome_L0013126.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "John Magnusson",
+      "description": "Vinterälskande utvecklare från Norrbottenskusten som alltid vill ha det lilla extra. Trivs lika bra att utveckla system som team.",
+      "image": {
+        "title": "johnm",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/5LSsDCTBNCQAaEGa0UaEw0/131ed7a18569fbb3a28d4958663bbb85/johnm.jpg",
+          "details": {
+            "size": 66028,
+            "image": {
+              "width": 233,
+              "height": 350
+            }
+          },
+          "fileName": "johnm.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Johan Leino",
+      "description": "Driven och noggrann webbutvecklare som inte drar sig för att skifta fokus mellan GUI och back-end, eller något annat som tillför värde. Gift småbarnsfar som försöker hitta tid till matlagningen eller någon form av motionsaktivitet så fort tillfälle finns.",
+      "phone": "0722-002804",
+      "services": [
+        {
+          "name": "twitter",
+          "url": "http://twitter.com/johanleino"
+        },
+        {
+          "name": "github",
+          "url": "http://github.com/jole78"
+        }
+      ],
+      "image": {
+        "title": "johanl",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/3689LP8D68mGqeogY60gOg/9fa21a88bfd6765a3bfbe73ec4f78278/johanl.jpg",
+          "details": {
+            "size": 86196,
+            "image": {
+              "width": 350,
+              "height": 350
+            }
+          },
+          "fileName": "johanl.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Mikael Ahlinder",
+      "description": "Kreativ utvecklare med ett öga för design. Pappa och seglare som gillar enkla lösningar, snabba beslut och långväga resor.",
+      "phone": "0734-481289",
+      "services": [
+        {
+          "name": "linkedin",
+          "url": " https://se.linkedin.com/in/mikaelahlinder"
+        },
+        {
+          "name": "twitter",
+          "url": " http://twitter.com/ahlinder"
+        },
+        {
+          "name": "github",
+          "url": "https://github.com/mikaelahlinder"
+        }
+      ],
+      "image": {
+        "title": "mikaela",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/4gdnJpI4x2YQIAg4qq4UCQ/5b7f2ae93282ad7fe6757b015bad7e01/mikaela.jpg",
+          "details": {
+            "size": 78830,
+            "image": {
+              "width": 350,
+              "height": 350
+            }
+          },
+          "fileName": "mikaela.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Magnus Hübner",
+      "description": "Frontend-utvecklare som gillar sol och snö. Gärna i kombination. Hellre sol utan snö än tvärtom. Pappa till två. Gillar skidor, boll och allmän aktivitet. Allergisk mot saker som inte funkar som de borde. Bosatt söder om söder, lantligt men modernt med närhet till kontinenten.",
+      "image": {
+        "title": "mh profile pic",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/1KdvXZXsQkCgg6GyGGAa68/9f7724145e1559e206e94db9d1945494/mh_profile_pic.jpg",
+          "details": {
+            "size": 103685,
+            "image": {
+              "width": 350,
+              "height": 350
+            }
+          },
+          "fileName": "mh_profile_pic.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Jonas Ahnlund",
+      "description": "Systemutvecklande pappa med passion för matlagning, old-school gaming och kodkvalitet (inte nödvändigtvis rankat i den ordningen).",
+      "image": {
+        "title": "johanl",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/1derRRDrp2CWeq6WUaW2ka/7c65d10639493845f9ec2920e014a3f6/jonasa.jpg",
+          "details": {
+            "size": 56041,
+            "image": {
+              "width": 233,
+              "height": 350
+            }
+          },
+          "fileName": "jonasa.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Jonas Ehrenfried",
+      "description": "Javautvecklare som gillar ordning och reda och enkla lösningar. Solnabo som försöker hinna med att träna, umgås med vänner och bränna av en tv-serier eller två på fritiden.",
+      "phone": "076-145 93 53",
+      "image": {
+        "title": "IMG 6810",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/5P8WLptbDq0C8mI2MWmuqO/bee4a3dfbe7de99d8b5ae2946a48eb52/IMG_6810.jpg",
+          "details": {
+            "size": 454233,
+            "image": {
+              "width": 2198,
+              "height": 1876
+            }
+          },
+          "fileName": "IMG_6810.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Maria Aspenberg",
+      "description": "Driven, strukturerad och ödmjuk produktägare och projektledare. Tvåbarnsmor som mår bra av skärgården, löpning och skidåkning.",
+      "phone": "070-3589169",
+      "services": [
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/maria-aspenberg-b8b14556/"
+        }
+      ],
+      "image": {
+        "title": "IMG 6813",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/2J7JOUa0QgIaMqe2qaMCAu/b85cf1881b6ec1cf4623740758e66393/IMG_6813.jpg",
+          "details": {
+            "size": 771607,
+            "image": {
+              "width": 3024,
+              "height": 2268
+            }
+          },
+          "fileName": "IMG_6813.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Olof Sandström",
+      "description": "Jovialisk och social projektledare som gillar att hjälpa IT och affärsverksamheten närmre varandra. Har örnkoll på siffror, leveranser, planer, styrgrupper, intressenter och älskar att kommunicera. Matlagande sambo med Åsa och tvåbarnsfar som älskar bollsporter både som utövare, som tränare och även passivt tillbakalutad samt att pyssla med tomten och huset",
+      "phone": "076-100 30 33",
+      "services": [
+        {
+          "name": "linkedin",
+          "url": " https://se.linkedin.com/pub/olof-sandström/1/21a/a0b"
+        },
+        {
+          "name": "instagram",
+          "url": " https://instagram.com/olof.sa"
+        }
+      ],
+      "image": {
+        "title": "olosan",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/35sOMYD4HmEsoqki6OAoc4/d8a064791e3b36c52e04270d8d56e213/olosan.jpg",
+          "details": {
+            "size": 63439,
+            "image": {
+              "width": 233,
+              "height": 350
+            }
+          },
+          "fileName": "olosan.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Thomas Granbacka",
+      "description": "Javautvecklare som älskar enkla och vackra lösningar. Gift. Två döttrar. Passionerad fotograf. Har en egen gokart. Har spelat blockflöjt och altsaxofon.",
+      "services": [
+        {
+          "name": "twitter",
+          "url": "http://twitter.com/tgranbacka"
+        },
+        {
+          "name": "instagram",
+          "url": "https://instagram.com/tgranbacka/"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/tgranbacka"
+        }
+      ],
+      "image": {
+        "title": "thomasg",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/67XDZLNzuoKES4WIKWgScm/12bdabfad3e44b4089d3353507f51d35/thomasg.jpg",
+          "details": {
+            "size": 99573,
+            "image": {
+              "width": 350,
+              "height": 350
+            }
+          },
+          "fileName": "thomasg.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Richard Danninger",
+      "description": "Utvecklare som uppskattar att avveckla det onödigt invecklade. Löser gärna problem med en skopa JavaScript, en dos Rust eller ett enkelt shell-script. Kopplar helst av med en Netflix-binge.",
+      "image": {
+        "title": "IMG 6809",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/5I0xycVWs8q0EyMgQm2YEK/2ebdbc5e22e4dd7bdaaa6d1ecfd93ea2/IMG_6809.jpg",
+          "details": {
+            "size": 598332,
+            "image": {
+              "width": 2412,
+              "height": 1983
+            }
+          },
+          "fileName": "IMG_6809.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Peter Qwärnström",
+      "description": "Vetgirig och nyfiken .Net utvecklare som gillar folk, skärgården och nypistade backar. Gift. Har två döttrar plus en lurvig katt.",
+      "image": {
+        "title": "peterq",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/2G84VcsjQkOEeo2mkMQEEA/3b1f0ee7deaa05d14ab8b02c59c6b14f/peterq.jpg",
+          "details": {
+            "size": 79162,
+            "image": {
+              "width": 350,
+              "height": 350
+            }
+          },
+          "fileName": "peterq.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "David Blomberg",
+      "description": "Gift pappa & ödmjuk systemutvecklare som försöker göra skillnad.",
+      "image": {
+        "title": "davidb",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/3f4WHsXh6UKwweqawse4CW/eddbe52a1abeaec07b3af01d6c4361eb/davidb.jpg",
+          "details": {
+            "size": 61102,
+            "image": {
+              "width": 233,
+              "height": 350
+            }
+          },
+          "fileName": "davidb.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Erik Sundell",
+      "description": "Nyfiken och analytisk .NET-utvecklare som älskar att lära sig nya saker. Ägnar sig helst åt segling, tennis och fotboll på fritiden.",
+      "phone": "073-7416629",
+      "services": [
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/erik-sundell-29ab0676"
+        },
+        {
+          "name": "github",
+          "url": "http://github.com/sunker"
+        },
+        {
+          "name": "twitter",
+          "url": "https://twitter.com/sunker87"
+        }
+      ],
+      "image": {
+        "title": "erisun",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/6Q2HaPb4asKG6S6o4UqSKe/8a264984cfe92daacfda1ebe840c456f/erisun.jpg",
+          "details": {
+            "size": 22736,
+            "image": {
+              "width": 457,
+              "height": 813
+            }
+          },
+          "fileName": "erisun.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    {
+      "name": "Jonas Cederkvist",
+      "description": "Utforskande .Net utvecklare med en näsa för nya tekniker. Lägger även en näsa i det mesta som man kan spela. Brädspel, kortspel, TV-Spel, spelprogrammering, listan är lång.",
+      "services": [
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/jonas-cederkvist-7b452851"
+        }
+      ],
+      "image": {
+        "title": "jonasc",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/hKUw6K4KAoM8d7sZ1oyeK/18597c7805cf2f1a0f758e592b1b5135/jonasc.jpg",
+          "details": {
+            "size": 137012,
+            "image": {
+              "width": 863,
+              "height": 879
+            }
+          },
+          "fileName": "jonasc.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    }
+  ],
+  "page": [
+    {
+      "name": "About",
+      "header": "Enklare",
+      "content": "Det ska vara enkelt att vara konsult och vår organisation liknar mer ett nätverk av vänner att rådfråga, bolla idéer och ha roligt med. Vi som är Aptitud har en huvudsaklig uppgift – att se till att alla här är glada och har roligt på jobbet.\n\nDet finns en uppfattning om att konsulter ska vara hos kunder 40h per vecka och sen vara beredda att bistå det egna bolaget med minst 10 timmar till i veckan. Och visst, det finns bolag som gör så men det är inte vi. Vi räknar inte timmar. Vår tidrapportering är näst intill obefintlig. Vi har ingen komptid att hålla reda på. Bolagsmöten och konferenser sker på arbetstid och vi har inga extra arbetsuppgifter som vi förväntas göra utanför ordinarie arbetstid. Vi vill ju lägga vår energi på roliga uppdrag ute hos kunder.\n\nVi värderar vår transparens enormt mycket. Vi litar på varandra, har inget att dölja och därför inget behov av kontroll. Så vi har inga chefer och alla har samma lönemodell som utgår från 53000:- per månad.\n\n__Enkelhet genom tillit och transparens.__",
+      "image": {
+        "title": "klotter",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/7FrzWIMyxaIcCqIyqAY886/c10b7d63fd5882714ce27d02618d6fc8/klotter.png",
+          "details": {
+            "size": 76617,
+            "image": {
+              "width": 454,
+              "height": 292
+            }
+          },
+          "fileName": "klotter.png",
+          "contentType": "image/png"
+        }
+      }
+    },
+    {
+      "name": "Aday",
+      "header": "roligare",
+      "content": "Vi gillar att umgås med varandra. Att få skratta och bli inspirerade och utmanade. Därför lägger vi mycket tid och pengar på konferenser och vår Aptituddag.\n\nAptituddagen är en arbetsdag i månaden när vi lämnar våra kunduppdrag och ses i butiken och gör saker tillsammans. För att det är kul och för att bli inspirerade. Vi testar nya ramverk, bygger saker, läser, diskuterar och ventilerar.\n\nVi börjar dagen med att sätta agendan och kolla av vilka projekt som är igång och vad det finns för roliga idéer som behöver realiseras.\n\nVi åker även på tre konferenser om året. En av dem är alltid en branschkonferens i stil med Öredev, GOTO eller NDC och fokus är inspiration och utveckling. På våra andra två konferenser fokuserar vi på att umgås och lära känna varandra bättre, att syna oss själva och se vart vi är på väg och vad vi ska fokusera på.\n\nFör oss är konferenser arbetstid och därför åker vi på arbetstid.",
+      "image": {
+        "title": "aptituddagen rotated",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/WLmMP5ftuegI28eEm0Gom/0399c3087b399099dd4e37fdf20539cb/aptituddagen_rotated.png",
+          "details": {
+            "size": 76840,
+            "image": {
+              "width": 428,
+              "height": 236
+            }
+          },
+          "fileName": "aptituddagen_rotated.png",
+          "contentType": "image/png"
+        }
+      }
+    },
+    {
+      "name": "Fellows",
+      "header": "Gladare",
+      "content": "Vi som är __Aptitud__ har sökt oss hit för vi vill ha vänner istället för kollegor. För att vi är nyfikna, glada och skrattar mycket och för att vi är trygga i våra konsultroller. För att vi är seriösa utan att ta oss själva på för stort allvar. För att vi gillar att hela tiden inspireras och utvecklas. Och för att vi tycker det är våldsamt skönt att slippa byråkratin och administrationen som följer med en hierarkisk bolagsstruktur."
+    }
+  ],
+  "socialIcon": [
+    {
+      "name": "YouTube",
+      "icon": {
+        "title": "youtube",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/suowNjs3FmQaQueK8W04E/8a2a9c5ee576b036b526c61223953bb3/youtube.png",
+          "details": {
+            "size": 17473,
+            "image": {
+              "width": 400,
+              "height": 166
+            }
+          },
+          "fileName": "youtube.png",
+          "contentType": "image/png"
+        }
+      },
+      "link": "http://www.youtube.com/aptitudsthlm"
+    },
+    {
+      "name": "LinkedIn",
+      "icon": {
+        "title": "linkedin",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/6FJO9y1LMI8oMGmGkY6SIo/e61167034143ce60113e7a7332a097c0/linkedin.png",
+          "details": {
+            "size": 2234,
+            "image": {
+              "width": 71,
+              "height": 71
+            }
+          },
+          "fileName": "linkedin.png",
+          "contentType": "image/png"
+        }
+      },
+      "link": "https://www.linkedin.com/company/aptitud/"
+    },
+    {
+      "name": "Eventbrite",
+      "icon": {
+        "title": "eventbrite",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/5mtWbwO9xYiE0YKm6UwKqO/3e34ac67c10989e3c1e320189ae57dbe/eventbrite.png",
+          "details": {
+            "size": 15805,
+            "image": {
+              "width": 400,
+              "height": 129
+            }
+          },
+          "fileName": "eventbrite.png",
+          "contentType": "image/png"
+        }
+      },
+      "link": "http://aptitud.eventbrite.com/"
+    },
+    {
+      "name": "Facebook",
+      "icon": {
+        "title": "fb",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/4aWWI07cPS8syIkwwgEeU4/c542fcf7896d9a060c9f1bbaa90f29e7/fb.png",
+          "details": {
+            "size": 2402,
+            "image": {
+              "width": 71,
+              "height": 74
+            }
+          },
+          "fileName": "fb.png",
+          "contentType": "image/png"
+        }
+      },
+      "link": "http://www.facebook.com/aptitudsthlm"
+    },
+    {
+      "name": "Instagram",
+      "icon": {
+        "title": "insta",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/hazXsF2LrUCOOW4CAkeao/034de8dd2e69d68710c1aa389aa52a0a/insta.png",
+          "details": {
+            "size": 28198,
+            "image": {
+              "width": 512,
+              "height": 512
+            }
+          },
+          "fileName": "insta.png",
+          "contentType": "image/png"
+        }
+      },
+      "link": "https://www.instagram.com/aptitud_sthlm/"
+    },
+    {
+      "name": "Twitter",
+      "icon": {
+        "title": "twitter",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/3HIhEUjyliIsOe2mcGmuA/77d4d4d3366f0093af45b413ca435d21/twitter.png",
+          "details": {
+            "size": 3216,
+            "image": {
+              "width": 70,
+              "height": 69
+            }
+          },
+          "fileName": "twitter.png",
+          "contentType": "image/png"
+        }
+      },
+      "link": "http://twitter.com/Aptitud_Sthlm"
+    }
+  ],
+  "contact": [
+    {
+      "name": "Contact",
+      "header": "Kontakt",
+      "postalAddress": "### POSTADRESS\nAptitud\nBox 2057\n103 12 Stockholm",
+      "visitingAddress": "### BESÖKSADRESS\nAptitud\nStora Nygatan 7\n111 27 Stockholm\n\n__[Visa karta](https://www.google.se/maps/place/Stora+Nygatan+7,+111+27+Stockholm/@59.3271399,18.0506839,13.81z/data=!4m2!3m1!1s0x465f77e21038bb13:0x7addcf9e0003c278 \"Karta\")__",
+      "image": {
+        "title": "karta",
+        "file": {
+          "url": "//images.ctfassets.net/kqhdnxbobtly/6LB9z3naGAkMqmcaGS48Ca/c66434250cfbaca913dfdc0903e506a4/karta.png",
+          "details": {
+            "size": 65392,
+            "image": {
+              "width": 532,
+              "height": 505
+            }
+          },
+          "fileName": "karta.png",
+          "contentType": "image/png"
+        }
+      }
+    }
+  ]
+}
