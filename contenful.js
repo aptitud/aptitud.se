@@ -5,7 +5,8 @@ require('dotenv').config()
 
 const markdownFields = {
   page: ['content'],
-  fellow: ['description']
+  fellow: ['description'],
+  contact: ['postalAddress', 'visitingAddress']
 }
 
 request

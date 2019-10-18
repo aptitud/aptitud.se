@@ -14,13 +14,16 @@
 
 <style type="text/scss">
   section {
-    column-count: 2;
+    column-count: 1;
+
     @media only screen and (min-width: 601px) {
       column-count: 2;
     }
+
     @media only screen and (min-width: 901px) {
       column-count: 3;
     }
+
     @media only screen and (min-width: 1200px) {
       column-count: 4;
       max-width: 1200px;
@@ -38,10 +41,6 @@
       }
 
       > h3 {
-        margin: 0;
-        font-weight: 300;
-        font-size: 2rem;
-        font-family: "Roboto", sans-serif;
         padding: 0 10px;
       }
 

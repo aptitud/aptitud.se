@@ -24,12 +24,20 @@
 
     .content {
       font-size: 2rem;
+
+      @media only screen and (max-width: 1000px) {
+        font-size: 1.5rem;
+      }
     }
 
     &.constrained > div {
       margin: 0 auto;
       max-width: 1280px;
       width: 60%;
+
+      @media only screen and (max-width: 1000px) {
+        width: 90%;
+      }
     }
 
     img {

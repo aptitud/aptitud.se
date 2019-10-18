@@ -2,6 +2,7 @@
   import Hero from "./Hero.svelte";
   import Section from "./Section.svelte";
   import Fellows from "./Fellows.svelte";
+  import Contact from "./Contact.svelte";
   import Aptigram from "./Aptigram.svelte";
   import images from "./aptigram.json";
   import ctf from "./ctf.json";
@@ -12,6 +13,7 @@
   const [roligare] = ctf.page.filter(p => p.name === "Aday");
   const [gladare] = ctf.page.filter(p => p.name === "Fellows");
   const [aptigram] = ctf.page.filter(p => p.name === "Aptigram");
+  const [kontakt] = ctf.contact;
 </script>
 
 <style>
@@ -28,6 +30,12 @@
     color: #039be5;
     text-decoration: none;
   }
+  :global(h3) {
+    margin: 0;
+    font-weight: 300;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+  }
 </style>
 
 <Hero />
@@ -38,4 +46,8 @@
 </Section>
 <Section header="Aptigram" backgroundColor="#784e90" fullWidth>
   <Aptigram />
+</Section>
+
+<Section {...kontakt} image={null} backgroundColor="#febe10">
+  <Contact {...kontakt} />
 </Section>

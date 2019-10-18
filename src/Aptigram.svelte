@@ -14,12 +14,15 @@
 
     > div {
       display: inline-block;
+
       &:nth-child(even) a {
         transform: rotate(2deg);
       }
+
       &:nth-child(5n) a {
         transform: rotate(5deg);
       }
+
       @media only screen and (max-width: 992px) {
         width: 50%;
       }
@@ -53,7 +56,7 @@
         }
 
         img {
-          max-width: 200px;
+          max-width: 100%;
         }
       }
     }
@@ -68,7 +71,7 @@
         {#if location}
           <span>{location}</span>
         {/if}
-        <div>{caption}</div>
+        <p>{caption}</p>
       </a>
     </div>
   {/each}
