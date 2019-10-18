@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
 
-    @media only screen and (max-width: 1000px) {
+    @media only screen and (max-width: 1200px) {
       display: block;
     }
 
