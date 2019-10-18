@@ -22,8 +22,9 @@
     "svelte-preprocess": "^3.1.2"
   },
   "scripts": {
-    "build": "node aptigram.js && rollup -c",
+    "build": "node aptigram.js && node contentful.js && rollup -c",
     "aptigram": "node aptigram.js",
+    "contentful": "node contentful.js",
     "autobuild": "rollup -c -w",
     "dev": "run-p start:dev autobuild",
     "start": "sirv public --single",
