@@ -5,7 +5,7 @@
 </script>
 
 <style type="text/scss">
-  .contact {
+  div.contact {
     display: flex;
     align-items: center;
 
@@ -22,20 +22,15 @@
       }
     }
 
-    > div {
-      display: block;
+    div.card {
+      color: #000;
+      padding: 40px;
+      margin: 0 auto 20px auto;
+      background-color: #eee;
+      font-size: 1.5rem;
 
-      div {
-        color: #000;
-        padding: 40px;
-        white-space: pre;
-        margin: 0 auto 20px auto;
-        background-color: #eee;
-        font-size: 1.5rem;
-
-        > :global(p) {
-          margin: 0;
-        }
+      > :global(p) {
+        margin: 10px 0;
       }
     }
   }
@@ -44,10 +39,10 @@
 <div class="contact">
   <img src={image.file.url} alt={image.title} />
   <div>
-    <div>
+    <div class="card">
       {@html postalAddress}
     </div>
-    <div>
+    <div class="card">
       {@html visitingAddress}
     </div>
   </div>

@@ -983,8 +983,8 @@
     {
       "name": "Contact",
       "header": "Kontakt",
-      "postalAddress": "<h3 id=\"postadress\">POSTADRESS</h3>\n<p>Aptitud\nBox 2057\n103 12 Stockholm</p>\n",
-      "visitingAddress": "<h3 id=\"besöksadress\">BESÖKSADRESS</h3>\n<p>Aptitud\nStora Nygatan 7\n111 27 Stockholm</p>\n<p><strong><a href=\"https://www.google.se/maps/place/Stora+Nygatan+7,+111+27+Stockholm/@59.3271399,18.0506839,13.81z/data=!4m2!3m1!1s0x465f77e21038bb13:0x7addcf9e0003c278\" title=\"Karta\">Visa karta</a></strong></p>\n",
+      "postalAddress": "<h3 id=\"postadress\">POSTADRESS</h3>\n<p>Aptitud<br>Box 2057<br>103 12 Stockholm </p>\n",
+      "visitingAddress": "<h3 id=\"besöksadress\">BESÖKSADRESS</h3>\n<p>Aptitud<br>Stora Nygatan 7<br>111 27 Stockholm </p>\n<p><strong><a href=\"https://www.google.se/maps/place/Stora+Nygatan+7,+111+27+Stockholm/@59.3271399,18.0506839,13.81z/data=!4m2!3m1!1s0x465f77e21038bb13:0x7addcf9e0003c278\" title=\"Karta\">Visa karta</a></strong></p>\n",
       "image": {
         "title": "karta",
         "file": {

@@ -3,6 +3,11 @@ const marked = require('marked')
 const request = require('request-promise-native')
 require('dotenv').config()
 
+marked.setOptions({
+  gfm: true,
+  breaks: true
+})
+
 const markdownFields = {
   page: ['content'],
   fellow: ['description'],
