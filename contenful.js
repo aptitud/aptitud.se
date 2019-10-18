@@ -1,6 +1,12 @@
 const fs = require('fs')
+const marked = require('marked')
 const request = require('request-promise-native')
 require('dotenv').config()
+
+const markdownFields = {
+  page: ['content'],
+  fellow: ['description']
+}
 
 request
   .get('https://cdn.contentful.com/spaces/kqhdnxbobtly/environments/master/entries', {
@@ -15,7 +21,8 @@ request
         return p
       }
       const entry = flattenEntry(item, resolveEntry)
-      return { ...p, [type]: [...(p[type] || []), entry] }
+      const transformed = transformMarkdown(entry, type)
+      return { ...p, [type]: [...(p[type] || []), transformed] }
     }, {})
   })
   .then(json => fs.writeFileSync('./src/ctf.json', JSON.stringify(json, null, 2)))
@@ -34,6 +41,15 @@ function flattenEntry(item, resolveObject) {
       return { ...p, [key]: resolveObject(value) }
     }
     return { ...p, [key]: value }
+  }, {})
+}
+
+function transformMarkdown(entry, type) {
+  const markdownSpec = markdownFields[type] || []
+  return Object.entries(entry).reduce((p, [key, value]) => {
+    const isMarkdown = markdownSpec.includes(key)
+    const transformed = isMarkdown ? marked(value) : value
+    return { ...p, [key]: transformed }
   }, {})
 }
 

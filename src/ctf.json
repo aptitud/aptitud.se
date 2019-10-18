@@ -2,7 +2,7 @@
   "fellow": [
     {
       "name": "Åsa Fogelin",
-      "description": "Erfaren ledare inom it med stor drivkraft att förbättra. Gillar att arbeta med målsättningar och visioner och att få team och medarbetare att växa i uppgifter och utmana sig själva. Älskar att leda retros och workshops.\n",
+      "description": "<p>Erfaren ledare inom it med stor drivkraft att förbättra. Gillar att arbeta med målsättningar och visioner och att få team och medarbetare att växa i uppgifter och utmana sig själva. Älskar att leda retros och workshops.</p>\n",
       "image": {
         "title": "IMG 4776",
         "file": {
@@ -21,7 +21,7 @@
     },
     {
       "name": "Roya Naini",
-      "description": "Nyfiken utvecklare som älskar hitta kreativa och enkla lösningar till olika tekniska problem. Värdesätter kommunikation, transparens och inklusivitet. Prisbelönad synthmusiker som släppar skivor och spelar live.",
+      "description": "<p>Nyfiken utvecklare som älskar hitta kreativa och enkla lösningar till olika tekniska problem. Värdesätter kommunikation, transparens och inklusivitet. Prisbelönad synthmusiker som släppar skivor och spelar live.</p>\n",
       "image": {
         "title": "roya",
         "file": {
@@ -40,7 +40,7 @@
     },
     {
       "name": "Johan Elmström",
-      "description": "Utvecklare som gillar enkla, rena,  lösningar, ContinuousDelivery och att lära sig nya saker. Gift tvåbarnsfar som spelar golf och tennis när det ges tillfälle (dvs nästan aldrig).",
+      "description": "<p>Utvecklare som gillar enkla, rena,  lösningar, ContinuousDelivery och att lära sig nya saker. Gift tvåbarnsfar som spelar golf och tennis när det ges tillfälle (dvs nästan aldrig).</p>\n",
       "phone": "0733-585661",
       "services": [
         {
@@ -70,7 +70,7 @@
     },
     {
       "name": "Anders Ljusberg",
-      "description": "Utvecklare/arkitekt som gärna jobbar händelsebaserat och asynkront. Ägnar en del fritid åt att arrangera Swenug-meetups och .NET-konferensen Swetugg. ",
+      "description": "<p>Utvecklare/arkitekt som gärna jobbar händelsebaserat och asynkront. Ägnar en del fritid åt att arrangera Swenug-meetups och .NET-konferensen Swetugg. </p>\n",
       "phone": "0733-829688",
       "services": [
         {
@@ -109,7 +109,7 @@
     },
     {
       "name": "Anders Löwenborg",
-      "description": "Pappa, seglare, informations junkie. Passion för, och inspirerad av människor. Grundare och glad kollega. Jobbar bl a med rekrytering - ring mig om du är nyfiken!",
+      "description": "<p>Pappa, seglare, informations junkie. Passion för, och inspirerad av människor. Grundare och glad kollega. Jobbar bl a med rekrytering - ring mig om du är nyfiken!</p>\n",
       "phone": "0704-619848",
       "services": [
         {
@@ -139,7 +139,7 @@
     },
     {
       "name": "Åsa Liljegren",
-      "description": "Utvecklare i .Net-världen som brinner för att lösa svåra problem genom att förenkla kod, arbetssätt och processer. Gäller allt från Javascript till Continuous Delivery.",
+      "description": "<p>Utvecklare i .Net-världen som brinner för att lösa svåra problem genom att förenkla kod, arbetssätt och processer. Gäller allt från Javascript till Continuous Delivery.</p>\n",
       "phone": "0709-694760",
       "services": [
         {
@@ -177,7 +177,7 @@
     },
     {
       "name": "Christian Fredh",
-      "description": "Engagerad utvecklare inom .NET och webb som gillar att göra skillnad. Husse och Södermalmsbo som gillar klättring, tiodans, politik och äventyr.",
+      "description": "<p>Engagerad utvecklare inom .NET och webb som gillar att göra skillnad. Husse och Södermalmsbo som gillar klättring, tiodans, politik och äventyr.</p>\n",
       "phone": "072-213 55 51",
       "services": [
         {
@@ -219,7 +219,7 @@
     },
     {
       "name": "Emil Ingridsson",
-      "description": "Ödmjuk och engagerad utvecklare som drivs av tekniska utmaningar. Norrlänning som via söder har hamnat söder om söder.",
+      "description": "<p>Ödmjuk och engagerad utvecklare som drivs av tekniska utmaningar. Norrlänning som via söder har hamnat söder om söder.</p>\n",
       "services": [
         {
           "name": "linkedin",
@@ -248,7 +248,7 @@
     },
     {
       "name": "Emma Ullberg",
-      "description": "Driven och nyfiken teamlead med rötterna i koden. Brinner för agil systemutveckling, teamdynamik och den egna punschverandan. Har en kort men intensiv karriär som smyckesdesigner bakom sig.",
+      "description": "<p>Driven och nyfiken teamlead med rötterna i koden. Brinner för agil systemutveckling, teamdynamik och den egna punschverandan. Har en kort men intensiv karriär som smyckesdesigner bakom sig.</p>\n",
       "phone": "070-6810902",
       "services": [
         {
@@ -278,7 +278,7 @@
     },
     {
       "name": "Marcus Hammarberg",
-      "description": "Coach med agilt/lean fokus och stark koppling till det praktiska. .NET / JavaScript utvecklare i botten. Motto: Få agile att fungera i praktiken! Gift, 3 barn, bott i Indonesien. Har skrivit boken Kanban in Action",
+      "description": "<p>Coach med agilt/lean fokus och stark koppling till det praktiska. .NET / JavaScript utvecklare i botten. Motto: Få agile att fungera i praktiken! Gift, 3 barn, bott i Indonesien. Har skrivit boken Kanban in Action</p>\n",
       "phone": "0768-725878",
       "services": [
         {
@@ -324,7 +324,7 @@
     },
     {
       "name": "Giovannie Malmqvist",
-      "description": "Glad och lyhörd säljare, tvåbarnsfader, gillar att hänga med i trender och lära sig nya saker",
+      "description": "<p>Glad och lyhörd säljare, tvåbarnsfader, gillar att hänga med i trender och lära sig nya saker</p>\n",
       "phone": "070-307 50 78",
       "services": [
         {
@@ -350,7 +350,7 @@
     },
     {
       "name": "Håkan Alexander",
-      "description": "Kodande arkitekt med koll på allt som gör utveckling och deploy smidigt och effektivt. Tränar grabbens fotbollslag och hejar när dottern spelar. Hänger i curlinghallen när tid ges mellan barnens aktiviteter eller byggprojekt i huset tillsammans med min fru.",
+      "description": "<p>Kodande arkitekt med koll på allt som gör utveckling och deploy smidigt och effektivt. Tränar grabbens fotbollslag och hejar när dottern spelar. Hänger i curlinghallen när tid ges mellan barnens aktiviteter eller byggprojekt i huset tillsammans med min fru.</p>\n",
       "phone": "073-6544433",
       "services": [
         {
@@ -380,7 +380,7 @@
     },
     {
       "name": "Hampus Klarin",
-      "description": "Glad och noggrann .NET-utvecklare. Hyser en stor passion för gitarrer; bygga, modda, spela... När han är ledig spenderar han helst tiden på resande fot med sin fru.",
+      "description": "<p>Glad och noggrann .NET-utvecklare. Hyser en stor passion för gitarrer; bygga, modda, spela... När han är ledig spenderar han helst tiden på resande fot med sin fru.</p>\n",
       "phone": "0705-679640",
       "services": [
         {
@@ -418,7 +418,7 @@
     },
     {
       "name": "Johannes Gunnbäck",
-      "description": "Filmnörd, dykare, systemutvecklare. Har en näsa för problemlösning och en passion för kodkvalitet, TDD och agile. Tycker det är lika roligt att utvecklar frontend- som backendapplikationer.",
+      "description": "<p>Filmnörd, dykare, systemutvecklare. Har en näsa för problemlösning och en passion för kodkvalitet, TDD och agile. Tycker det är lika roligt att utvecklar frontend- som backendapplikationer.</p>\n",
       "image": {
         "title": "johannesg",
         "file": {
@@ -437,7 +437,7 @@
     },
     {
       "name": "Fredrik Sundberg",
-      "description": "Utvecklare med fokus på Java, DevOps och Continuous Delivery som försöker göra det svåra så enkelt som möjligt. Trebarnsfar i Årsta med smak för racketsport.",
+      "description": "<p>Utvecklare med fokus på Java, DevOps och Continuous Delivery som försöker göra det svåra så enkelt som möjligt. Trebarnsfar i Årsta med smak för racketsport.</p>\n",
       "phone": "0703-442113",
       "services": [
         {
@@ -471,7 +471,7 @@
     },
     {
       "name": "John Magnusson",
-      "description": "Vinterälskande utvecklare från Norrbottenskusten som alltid vill ha det lilla extra. Trivs lika bra att utveckla system som team.",
+      "description": "<p>Vinterälskande utvecklare från Norrbottenskusten som alltid vill ha det lilla extra. Trivs lika bra att utveckla system som team.</p>\n",
       "image": {
         "title": "johnm",
         "file": {
@@ -490,7 +490,7 @@
     },
     {
       "name": "Johan Leino",
-      "description": "Driven och noggrann webbutvecklare som inte drar sig för att skifta fokus mellan GUI och back-end, eller något annat som tillför värde. Gift småbarnsfar som försöker hitta tid till matlagningen eller någon form av motionsaktivitet så fort tillfälle finns.",
+      "description": "<p>Driven och noggrann webbutvecklare som inte drar sig för att skifta fokus mellan GUI och back-end, eller något annat som tillför värde. Gift småbarnsfar som försöker hitta tid till matlagningen eller någon form av motionsaktivitet så fort tillfälle finns.</p>\n",
       "phone": "0722-002804",
       "services": [
         {
@@ -520,7 +520,7 @@
     },
     {
       "name": "Mikael Ahlinder",
-      "description": "Kreativ utvecklare med ett öga för design. Pappa och seglare som gillar enkla lösningar, snabba beslut och långväga resor.",
+      "description": "<p>Kreativ utvecklare med ett öga för design. Pappa och seglare som gillar enkla lösningar, snabba beslut och långväga resor.</p>\n",
       "phone": "0734-481289",
       "services": [
         {
@@ -554,7 +554,7 @@
     },
     {
       "name": "Magnus Hübner",
-      "description": "Frontend-utvecklare som gillar sol och snö. Gärna i kombination. Hellre sol utan snö än tvärtom. Pappa till två. Gillar skidor, boll och allmän aktivitet. Allergisk mot saker som inte funkar som de borde. Bosatt söder om söder, lantligt men modernt med närhet till kontinenten.",
+      "description": "<p>Frontend-utvecklare som gillar sol och snö. Gärna i kombination. Hellre sol utan snö än tvärtom. Pappa till två. Gillar skidor, boll och allmän aktivitet. Allergisk mot saker som inte funkar som de borde. Bosatt söder om söder, lantligt men modernt med närhet till kontinenten.</p>\n",
       "image": {
         "title": "mh profile pic",
         "file": {
@@ -573,7 +573,7 @@
     },
     {
       "name": "Jonas Ahnlund",
-      "description": "Systemutvecklande pappa med passion för matlagning, old-school gaming och kodkvalitet (inte nödvändigtvis rankat i den ordningen).",
+      "description": "<p>Systemutvecklande pappa med passion för matlagning, old-school gaming och kodkvalitet (inte nödvändigtvis rankat i den ordningen).</p>\n",
       "image": {
         "title": "johanl",
         "file": {
@@ -592,7 +592,7 @@
     },
     {
       "name": "Jonas Ehrenfried",
-      "description": "Javautvecklare som gillar ordning och reda och enkla lösningar. Solnabo som försöker hinna med att träna, umgås med vänner och bränna av en tv-serier eller två på fritiden.",
+      "description": "<p>Javautvecklare som gillar ordning och reda och enkla lösningar. Solnabo som försöker hinna med att träna, umgås med vänner och bränna av en tv-serier eller två på fritiden.</p>\n",
       "phone": "076-145 93 53",
       "image": {
         "title": "IMG 6810",
@@ -612,7 +612,7 @@
     },
     {
       "name": "Maria Aspenberg",
-      "description": "Driven, strukturerad och ödmjuk produktägare och projektledare. Tvåbarnsmor som mår bra av skärgården, löpning och skidåkning.",
+      "description": "<p>Driven, strukturerad och ödmjuk produktägare och projektledare. Tvåbarnsmor som mår bra av skärgården, löpning och skidåkning.</p>\n",
       "phone": "070-3589169",
       "services": [
         {
@@ -638,7 +638,7 @@
     },
     {
       "name": "Olof Sandström",
-      "description": "Jovialisk och social projektledare som gillar att hjälpa IT och affärsverksamheten närmre varandra. Har örnkoll på siffror, leveranser, planer, styrgrupper, intressenter och älskar att kommunicera. Matlagande sambo med Åsa och tvåbarnsfar som älskar bollsporter både som utövare, som tränare och även passivt tillbakalutad samt att pyssla med tomten och huset",
+      "description": "<p>Jovialisk och social projektledare som gillar att hjälpa IT och affärsverksamheten närmre varandra. Har örnkoll på siffror, leveranser, planer, styrgrupper, intressenter och älskar att kommunicera. Matlagande sambo med Åsa och tvåbarnsfar som älskar bollsporter både som utövare, som tränare och även passivt tillbakalutad samt att pyssla med tomten och huset</p>\n",
       "phone": "076-100 30 33",
       "services": [
         {
@@ -668,7 +668,7 @@
     },
     {
       "name": "Thomas Granbacka",
-      "description": "Javautvecklare som älskar enkla och vackra lösningar. Gift. Två döttrar. Passionerad fotograf. Har en egen gokart. Har spelat blockflöjt och altsaxofon.",
+      "description": "<p>Javautvecklare som älskar enkla och vackra lösningar. Gift. Två döttrar. Passionerad fotograf. Har en egen gokart. Har spelat blockflöjt och altsaxofon.</p>\n",
       "services": [
         {
           "name": "twitter",
@@ -701,7 +701,7 @@
     },
     {
       "name": "Richard Danninger",
-      "description": "Utvecklare som uppskattar att avveckla det onödigt invecklade. Löser gärna problem med en skopa JavaScript, en dos Rust eller ett enkelt shell-script. Kopplar helst av med en Netflix-binge.",
+      "description": "<p>Utvecklare som uppskattar att avveckla det onödigt invecklade. Löser gärna problem med en skopa JavaScript, en dos Rust eller ett enkelt shell-script. Kopplar helst av med en Netflix-binge.</p>\n",
       "image": {
         "title": "IMG 6809",
         "file": {
@@ -720,7 +720,7 @@
     },
     {
       "name": "Peter Qwärnström",
-      "description": "Vetgirig och nyfiken .Net utvecklare som gillar folk, skärgården och nypistade backar. Gift. Har två döttrar plus en lurvig katt.",
+      "description": "<p>Vetgirig och nyfiken .Net utvecklare som gillar folk, skärgården och nypistade backar. Gift. Har två döttrar plus en lurvig katt.</p>\n",
       "image": {
         "title": "peterq",
         "file": {
@@ -739,7 +739,7 @@
     },
     {
       "name": "David Blomberg",
-      "description": "Gift pappa & ödmjuk systemutvecklare som försöker göra skillnad.",
+      "description": "<p>Gift pappa &amp; ödmjuk systemutvecklare som försöker göra skillnad.</p>\n",
       "image": {
         "title": "davidb",
         "file": {
@@ -758,7 +758,7 @@
     },
     {
       "name": "Erik Sundell",
-      "description": "Nyfiken och analytisk .NET-utvecklare som älskar att lära sig nya saker. Ägnar sig helst åt segling, tennis och fotboll på fritiden.",
+      "description": "<p>Nyfiken och analytisk .NET-utvecklare som älskar att lära sig nya saker. Ägnar sig helst åt segling, tennis och fotboll på fritiden.</p>\n",
       "phone": "073-7416629",
       "services": [
         {
@@ -792,7 +792,7 @@
     },
     {
       "name": "Jonas Cederkvist",
-      "description": "Utforskande .Net utvecklare med en näsa för nya tekniker. Lägger även en näsa i det mesta som man kan spela. Brädspel, kortspel, TV-Spel, spelprogrammering, listan är lång.",
+      "description": "<p>Utforskande .Net utvecklare med en näsa för nya tekniker. Lägger även en näsa i det mesta som man kan spela. Brädspel, kortspel, TV-Spel, spelprogrammering, listan är lång.</p>\n",
       "services": [
         {
           "name": "linkedin",
@@ -820,7 +820,7 @@
     {
       "name": "About",
       "header": "Enklare",
-      "content": "Det ska vara enkelt att vara konsult och vår organisation liknar mer ett nätverk av vänner att rådfråga, bolla idéer och ha roligt med. Vi som är Aptitud har en huvudsaklig uppgift – att se till att alla här är glada och har roligt på jobbet.\n\nDet finns en uppfattning om att konsulter ska vara hos kunder 40h per vecka och sen vara beredda att bistå det egna bolaget med minst 10 timmar till i veckan. Och visst, det finns bolag som gör så men det är inte vi. Vi räknar inte timmar. Vår tidrapportering är näst intill obefintlig. Vi har ingen komptid att hålla reda på. Bolagsmöten och konferenser sker på arbetstid och vi har inga extra arbetsuppgifter som vi förväntas göra utanför ordinarie arbetstid. Vi vill ju lägga vår energi på roliga uppdrag ute hos kunder.\n\nVi värderar vår transparens enormt mycket. Vi litar på varandra, har inget att dölja och därför inget behov av kontroll. Så vi har inga chefer och alla har samma lönemodell som utgår från 53000:- per månad.\n\n__Enkelhet genom tillit och transparens.__",
+      "content": "<p>Det ska vara enkelt att vara konsult och vår organisation liknar mer ett nätverk av vänner att rådfråga, bolla idéer och ha roligt med. Vi som är Aptitud har en huvudsaklig uppgift – att se till att alla här är glada och har roligt på jobbet.</p>\n<p>Det finns en uppfattning om att konsulter ska vara hos kunder 40h per vecka och sen vara beredda att bistå det egna bolaget med minst 10 timmar till i veckan. Och visst, det finns bolag som gör så men det är inte vi. Vi räknar inte timmar. Vår tidrapportering är näst intill obefintlig. Vi har ingen komptid att hålla reda på. Bolagsmöten och konferenser sker på arbetstid och vi har inga extra arbetsuppgifter som vi förväntas göra utanför ordinarie arbetstid. Vi vill ju lägga vår energi på roliga uppdrag ute hos kunder.</p>\n<p>Vi värderar vår transparens enormt mycket. Vi litar på varandra, har inget att dölja och därför inget behov av kontroll. Så vi har inga chefer och alla har samma lönemodell som utgår från 53000:- per månad.</p>\n<p><strong>Enkelhet genom tillit och transparens.</strong></p>\n",
       "image": {
         "title": "klotter",
         "file": {
@@ -840,7 +840,7 @@
     {
       "name": "Aday",
       "header": "roligare",
-      "content": "Vi gillar att umgås med varandra. Att få skratta och bli inspirerade och utmanade. Därför lägger vi mycket tid och pengar på konferenser och vår Aptituddag.\n\nAptituddagen är en arbetsdag i månaden när vi lämnar våra kunduppdrag och ses i butiken och gör saker tillsammans. För att det är kul och för att bli inspirerade. Vi testar nya ramverk, bygger saker, läser, diskuterar och ventilerar.\n\nVi börjar dagen med att sätta agendan och kolla av vilka projekt som är igång och vad det finns för roliga idéer som behöver realiseras.\n\nVi åker även på tre konferenser om året. En av dem är alltid en branschkonferens i stil med Öredev, GOTO eller NDC och fokus är inspiration och utveckling. På våra andra två konferenser fokuserar vi på att umgås och lära känna varandra bättre, att syna oss själva och se vart vi är på väg och vad vi ska fokusera på.\n\nFör oss är konferenser arbetstid och därför åker vi på arbetstid.",
+      "content": "<p>Vi gillar att umgås med varandra. Att få skratta och bli inspirerade och utmanade. Därför lägger vi mycket tid och pengar på konferenser och vår Aptituddag.</p>\n<p>Aptituddagen är en arbetsdag i månaden när vi lämnar våra kunduppdrag och ses i butiken och gör saker tillsammans. För att det är kul och för att bli inspirerade. Vi testar nya ramverk, bygger saker, läser, diskuterar och ventilerar.</p>\n<p>Vi börjar dagen med att sätta agendan och kolla av vilka projekt som är igång och vad det finns för roliga idéer som behöver realiseras.</p>\n<p>Vi åker även på tre konferenser om året. En av dem är alltid en branschkonferens i stil med Öredev, GOTO eller NDC och fokus är inspiration och utveckling. På våra andra två konferenser fokuserar vi på att umgås och lära känna varandra bättre, att syna oss själva och se vart vi är på väg och vad vi ska fokusera på.</p>\n<p>För oss är konferenser arbetstid och därför åker vi på arbetstid.</p>\n",
       "image": {
         "title": "aptituddagen rotated",
         "file": {
@@ -860,7 +860,7 @@
     {
       "name": "Fellows",
       "header": "Gladare",
-      "content": "Vi som är __Aptitud__ har sökt oss hit för vi vill ha vänner istället för kollegor. För att vi är nyfikna, glada och skrattar mycket och för att vi är trygga i våra konsultroller. För att vi är seriösa utan att ta oss själva på för stort allvar. För att vi gillar att hela tiden inspireras och utvecklas. Och för att vi tycker det är våldsamt skönt att slippa byråkratin och administrationen som följer med en hierarkisk bolagsstruktur."
+      "content": "<p>Vi som är <strong>Aptitud</strong> har sökt oss hit för vi vill ha vänner istället för kollegor. För att vi är nyfikna, glada och skrattar mycket och för att vi är trygga i våra konsultroller. För att vi är seriösa utan att ta oss själva på för stort allvar. För att vi gillar att hela tiden inspireras och utvecklas. Och för att vi tycker det är våldsamt skönt att slippa byråkratin och administrationen som följer med en hierarkisk bolagsstruktur.</p>\n"
     }
   ],
   "socialIcon": [
