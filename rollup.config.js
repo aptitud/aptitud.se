@@ -12,9 +12,9 @@ export default {
   input: 'src/main.js',
   output: {
     sourcemap: true,
-    format: 'iife',
+    format: process.env.NETLIFY ? 'cjs' : 'iife',
     name: 'app',
-    file: 'public/bundle.js'
+    file: 'public/bundle.js',
   },
   plugins: [
     svelte({
@@ -25,7 +25,8 @@ export default {
       // a separate file — better for performance
       css: css => {
         css.write('public/bundle.css')
-      }
+      },
+      generate: process.env.NETLIFY ? 'ssr' : 'dom',
     }),
 
     json({
@@ -46,7 +47,7 @@ export default {
       compact: true, // Default: false
 
       // generate a named export for every property of the JSON object
-      namedExports: false // Default: true
+      namedExports: false, // Default: true
     }),
 
     // If you have external dependencies installed from
@@ -56,7 +57,7 @@ export default {
     // https://github.com/rollup/rollup-plugin-commonjs
     resolve({
       browser: true,
-      dedupe: importee => importee === 'svelte' || importee.startsWith('svelte/')
+      dedupe: importee => importee === 'svelte' || importee.startsWith('svelte/'),
     }),
     commonjs(),
 
@@ -66,9 +67,9 @@ export default {
 
     // If we're building for production (npm run build
     // instead of npm run dev), minify
-    production && terser()
+    production && process.env.NETLIFY && terser(),
   ],
   watch: {
-    clearScreen: false
-  }
+    clearScreen: false,
+  },
 }

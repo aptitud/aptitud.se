@@ -23,6 +23,7 @@
   },
   "scripts": {
     "build": "node aptigram.js && node contentful.js && rollup -c",
+    "netlify": "node aptigram.js && node contentful.js && rollup -c && node build.js",
     "aptigram": "node aptigram.js",
     "contentful": "node contentful.js",
     "autobuild": "rollup -c -w",
