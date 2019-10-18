@@ -1,6 +1,6 @@
 <script>
   import ctf from "./ctf.json";
-  const fellows = ctf.fellow;
+  const fellows = ctf.fellow.sort(() => Math.round(Math.random() - 1));
 
   const email = name =>
     name
