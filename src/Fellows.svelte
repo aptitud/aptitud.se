@@ -40,7 +40,7 @@
         padding: 0 10px;
       }
 
-      p {
+      > :global(p) {
         padding: 0 10px;
       }
 
@@ -66,9 +66,7 @@
     <div>
       <img src="{image.file.url}?fm=jpg&fl=progressive&w=300&q=80" alt={name} />
       <h3>{name}</h3>
-      <p>
-        {@html description}
-      </p>
+      {@html description}
       <ul>
         <li>
           <a href="mailto:{email(name)}@aptitud.se">
