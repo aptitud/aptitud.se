@@ -37,7 +37,7 @@
   <div>
     {#each ctf.socialIcon as { name, icon, link }}
       <a href={link} target="_blank" rel="noreferrer">
-        <img src={icon.file.url} alt={name} />
+        <img src="{icon.file.url}&h=50" alt={name} />
       </a>
     {/each}
   </div>
