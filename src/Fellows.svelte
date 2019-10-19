@@ -71,7 +71,7 @@
 <section>
   {#each fellows as { name, description, image, services }}
     <div>
-      <img src={image.file.url} alt={name} />
+      <img src="{image.file.url}&w=300&h=300&fit=fill&q=80&f=face" alt={name} />
       <h3>{name}</h3>
       {@html description}
       <ul>

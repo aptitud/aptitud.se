@@ -15,7 +15,7 @@ const markdownFields = {
 }
 
 const imageQueryString = {
-  'image/jpeg': '?fm=jpg&fl=progressive&w=300&q=80',
+  'image/jpeg': '?fm=jpg&fl=progressive&q=80',
   'image/png': '?fm=png&fl=png8'
 }
 
