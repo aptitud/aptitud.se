@@ -60,6 +60,6 @@
     <slot />
   </div>
   {#if image}
-    <img src={image} alt={image.title} />
+    <img src={image.file.url} alt={image.title} />
   {/if}
 </section>
