@@ -14,6 +14,11 @@ const markdownFields = {
   contact: ['postalAddress', 'visitingAddress']
 }
 
+const imageQueryString = {
+  'image/jpeg': '?fm=jpg&fl=progressive&w=300&q=80',
+  'image/png': '?fm=png&fl=png8'
+}
+
 request
   .get('https://cdn.contentful.com/spaces/kqhdnxbobtly/environments/master/entries', {
     qs: { access_token: process.env.CONTENTFUL_ACCESS_TOKEN, limit: 1000, include: 2 },
@@ -61,7 +66,12 @@ function transformMarkdown(entry, type) {
 
 function resolveObject(obj, everything) {
   if (obj.sys.linkType === 'Asset') {
-    return everything.includes.Asset.find(y => y.sys.id === obj.sys.id).fields
+    const asset = everything.includes.Asset.find(y => y.sys.id === obj.sys.id).fields
+
+    if (asset.file) {
+      const qs = imageQueryString[asset.file.contentType]
+      return { ...asset, file: { ...asset.file, url: asset.file.url + qs } }
+    }
   }
   if (obj.sys.linkType === 'Entry') {
     return everything.items.find(y => y.sys.id === obj.sys.id).fields

@@ -64,7 +64,7 @@
 <section>
   {#each fellows as { name, description, image, services }}
     <div>
-      <img src="{image.file.url}?fm=jpg&fl=progressive&w=300&q=80" alt={name} />
+      <img src={image.file.url} alt={name} />
       <h3>{name}</h3>
       {@html description}
       <ul>
