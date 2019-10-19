@@ -27,7 +27,7 @@
     word-break: break-word;
   }
   :global(a) {
-    color: #039be5;
+    color: #1e859a;
     text-decoration: none;
   }
   :global(h3) {
