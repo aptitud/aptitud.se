@@ -23,7 +23,7 @@
     color: white;
   }
   :global(p) {
-    font-weight: 200;
+    font-weight: 100;
     word-break: break-word;
   }
   :global(a) {
