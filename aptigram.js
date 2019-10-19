@@ -8,11 +8,17 @@ request
     json: true
   })
   .then(({ data }) =>
-    data.map(({ images, caption, location }) => ({
-      url: images.low_resolution.url,
-      caption: caption && caption.text,
-      location: location && location.name
-    }))
+    Promise.all(
+      data.map(async ({ images, caption, location }) => ({
+        url: await request(images.low_resolution.url, { encoding: null }).then(img => {
+          const [, filename] = /(?:.*\/)(.*)\?/.exec(images.low_resolution.url)
+          fs.writeFileSync(`./public/aptigram/${filename}`, img)
+          return `./aptigram/${filename}`
+        }),
+        caption: caption && caption.text,
+        location: location && location.name
+      }))
+    )
   )
   .then(json => {
     fs.writeFileSync('src/aptigram.json', JSON.stringify(json, null, 2))

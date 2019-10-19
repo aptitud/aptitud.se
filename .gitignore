@@ -5,3 +5,4 @@ public/bundle.*
 .env
 ctf.json
 aptigram.json
+public/aptigram/*.jpg
