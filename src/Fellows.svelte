@@ -78,7 +78,7 @@
         {#if services}
           {#each services as { name, url }}
             <li>
-              <a href={url} target="_blank" aria-label={name}>
+              <a href={url} target="_blank" aria-label={name} rel="noreferrer">
                 <i class="fa fa-fw fa-{name === 'blog' ? 'globe' : name}" />
               </a>
             </li>
