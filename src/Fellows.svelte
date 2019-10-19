@@ -42,6 +42,7 @@
 
       > :global(p) {
         padding: 0 10px;
+        margin: 5px 0;
       }
 
       ul {

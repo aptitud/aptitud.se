@@ -40,7 +40,7 @@
         font-size: 1em;
         line-height: 1.4em;
         transform: rotate(-2deg);
-        padding: 10px 10px 15px;
+        padding: 10px;
         max-width: 200px;
 
         &:hover {
@@ -52,7 +52,10 @@
         span {
           display: block;
           font-size: 10px;
-          padding-bottom: 5px;
+        }
+
+        p {
+          margin: 0;
         }
 
         img {
