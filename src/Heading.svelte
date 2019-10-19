@@ -6,7 +6,7 @@
 <style type="text/scss">
   @font-face {
     font-family: "Jenthill";
-    font-display: auto;
+    font-display: swap;
     src: url(./Jenthill.ttf.woff);
   }
   h2 {
