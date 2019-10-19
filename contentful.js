@@ -72,6 +72,8 @@ function resolveObject(obj, everything) {
       const qs = imageQueryString[asset.file.contentType]
       return { ...asset, file: { ...asset.file, url: asset.file.url + qs } }
     }
+
+    return asset
   }
   if (obj.sys.linkType === 'Entry') {
     return everything.items.find(y => y.sys.id === obj.sys.id).fields
