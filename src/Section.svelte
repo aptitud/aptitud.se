@@ -7,6 +7,10 @@
   export let backgroundColor;
   export let fullWidth;
 
+  const imageSrc = image
+    ? image.file.url.replace(".png", ".png?fm=png&fl=png8")
+    : undefined;
+
   const rotationSpan = 6;
   const rotation = Math.round(Math.random() * rotationSpan - rotationSpan / 2);
 </script>
@@ -60,6 +64,6 @@
     <slot />
   </div>
   {#if image}
-    <img src={image.file.url} alt={image.title} />
+    <img src={imageSrc} alt={image.title} />
   {/if}
 </section>
