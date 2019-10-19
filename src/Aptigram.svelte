@@ -69,7 +69,11 @@
 <div class="container">
   {#each aptigram as { url, caption, location }}
     <div>
-      <a href="http://www.instagram.com/aptitud_sthlm/" title={caption}>
+      <a
+        href="http://www.instagram.com/aptitud_sthlm/"
+        rel="noreferrer"
+        target="_blank"
+        title={caption}>
         <img alt={caption} src={url} />
         {#if location}
           <span>{location}</span>
