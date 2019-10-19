@@ -1,6 +1,8 @@
 <script>
   export let text;
-  export let rotation;
+
+  const rotationSpan = 14;
+  const rotation = Math.round(Math.random() * rotationSpan - rotationSpan / 2);
 </script>
 
 <style type="text/scss">

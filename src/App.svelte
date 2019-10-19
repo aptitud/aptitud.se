@@ -48,6 +48,6 @@
   <Aptigram />
 </Section>
 
-<Section {...{ ...kontakt, image: null }} backgroundColor="#febe10">
+<Section {...{ ...kontakt, image: null }} backgroundColor="#00A69A">
   <Contact {...kontakt} />
 </Section>

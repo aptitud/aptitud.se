@@ -6,9 +6,6 @@
   export let image;
   export let backgroundColor;
   export let fullWidth;
-
-  const rotationSpan = 6;
-  const rotation = Math.round(Math.random() * rotationSpan - rotationSpan / 2);
 </script>
 
 <style type="text/scss">
@@ -50,7 +47,7 @@
 <section
   style="--background-color: {backgroundColor}"
   class={fullWidth ? null : 'constrained'}>
-  <Heading text={header} {rotation} />
+  <Heading text={header} />
   {#if content}
     <div class="content">
       {@html content}
