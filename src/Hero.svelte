@@ -36,7 +36,7 @@
   <img src="./logo.png" alt="Aptitud logo" />
   <div>
     {#each ctf.socialIcon as { name, icon, link }}
-      <a href={link} target="_blank">
+      <a href={link} target="_blank" rel="noreferrer">
         <img src={icon.file.url} alt={name} />
       </a>
     {/each}
