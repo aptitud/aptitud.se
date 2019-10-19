@@ -46,11 +46,18 @@
 
       ul {
         background-color: #eee;
-        padding: 0 10px 10px 10px;
+        padding: 0;
 
         li {
           display: inline-block;
-          margin-top: 10px;
+
+          > a {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            height: 48px;
+            width: 48px;
+          }
 
           i {
             font-size: 1.5rem;
