@@ -41,7 +41,7 @@
 <Hero />
 <Section {...enklare} backgroundColor="#1e859a" />
 <Section {...roligare} backgroundColor="#7a9752" />
-<Section {...gladare} backgroundColor="#f63">
+<Section {...gladare} backgroundColor="#ef6031">
   <Fellows />
 </Section>
 <Section header="Aptigram" backgroundColor="#784e90" fullWidth>
