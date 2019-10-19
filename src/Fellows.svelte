@@ -69,7 +69,9 @@
       {@html description}
       <ul>
         <li>
-          <a href="mailto:{email(name)}@aptitud.se">
+          <a
+            href="mailto:{email(name)}@aptitud.se"
+            aria-label="E-post till {name}">
             <i class="fa fa-fw fa-envelope" />
           </a>
         </li>
