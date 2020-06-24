@@ -5,27 +5,43 @@ require('dotenv').config()
 
 marked.setOptions({
   gfm: true,
-  breaks: true
+  breaks: true,
 })
 
 const markdownFields = {
   page: ['content'],
   fellow: ['description'],
-  contact: ['postalAddress', 'visitingAddress']
+  contact: ['postalAddress', 'visitingAddress'],
 }
 
 const imageQueryString = {
   'image/jpeg': '?fm=jpg&fl=progressive&q=80',
-  'image/png': '?fm=png&fl=png8'
+  'image/png': '?fm=png&fl=png8',
 }
 
 request
-  .get('https://cdn.contentful.com/spaces/kqhdnxbobtly/environments/master/entries', {
-    qs: { access_token: process.env.CONTENTFUL_ACCESS_TOKEN, limit: 1000, include: 2 },
-    json: true
+  .get(
+    'https://cdn.contentful.com/spaces/kqhdnxbobtly/environments/master/entries',
+    {
+      qs: {
+        access_token: process.env.CONTENTFUL_ACCESS_TOKEN,
+        limit: 1000,
+        include: 2,
+      },
+      json: true,
+    },
+  )
+  .then((json) => {
+    const validTypes = ['socialIcon', 'contact', 'fellow', 'pages', 'service']
+    return {
+      ...json,
+      items: json.items.filter((x) =>
+        validTypes.includes(x.sys.contentType.sys.id),
+      ),
+    }
   })
-  .then(json => {
-    const resolveEntry = value => resolveObject(value, json)
+  .then((json) => {
+    const resolveEntry = (value) => resolveObject(value, json)
     return json.items.reduce((p, item) => {
       const type = item.sys.contentType.sys.id
       if (type === 'service') {
@@ -36,8 +52,10 @@ request
       return { ...p, [type]: [...(p[type] || []), transformed] }
     }, {})
   })
-  .then(json => fs.writeFileSync('./src/ctf.json', JSON.stringify(json, null, 2)))
-  .catch(error => {
+  .then((json) =>
+    fs.writeFileSync('./src/ctf.json', JSON.stringify(json, null, 2)),
+  )
+  .catch((error) => {
     console.log(error)
     process.exit(1)
   })
@@ -66,7 +84,8 @@ function transformMarkdown(entry, type) {
 
 function resolveObject(obj, everything) {
   if (obj.sys.linkType === 'Asset') {
-    const asset = everything.includes.Asset.find(y => y.sys.id === obj.sys.id).fields
+    const asset = everything.includes.Asset.find((y) => y.sys.id === obj.sys.id)
+      .fields
 
     if (asset.file) {
       const qs = imageQueryString[asset.file.contentType]
@@ -76,7 +95,7 @@ function resolveObject(obj, everything) {
     return asset
   }
   if (obj.sys.linkType === 'Entry') {
-    return everything.items.find(y => y.sys.id === obj.sys.id).fields
+    return everything.items.find((y) => y.sys.id === obj.sys.id).fields
   }
   return obj
 }
