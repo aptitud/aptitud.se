@@ -32,7 +32,7 @@ request
     },
   )
   .then((json) => {
-    const validTypes = ['socialIcon', 'contact', 'fellow', 'pages', 'service']
+    const validTypes = ['socialIcon', 'contact', 'fellow', 'page', 'service']
     return {
       ...json,
       items: json.items.filter((x) =>
