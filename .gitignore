@@ -2,7 +2,6 @@
 node_modules
 public/bundle.*
 .env
-.env
 ctf.json
 aptigram.json
 public/aptigram/*.jpg

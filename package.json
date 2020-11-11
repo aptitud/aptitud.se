@@ -19,13 +19,14 @@
   "dependencies": {
     "jsdom": "^15.2.0",
     "marked": "^0.7.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^5.0.0",
+    "sass": "^1.29.0",
     "sirv-cli": "^0.4.4",
     "svelte-preprocess": "^3.1.2"
   },
   "scripts": {
     "build": "node aptigram.js && node contentful.js && rollup -c",
-    "build-static": "node contentful.js && rollup -c && node build.js",
+    "build-static": "node aptigram.js && node contentful.js && rollup -c && node build.js",
     "aptigram": "node aptigram.js",
     "contentful": "node contentful.js",
     "autobuild": "rollup -c -w",

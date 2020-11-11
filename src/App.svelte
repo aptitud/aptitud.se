@@ -44,11 +44,11 @@
 <Section {...gladare} backgroundColor="#ef6031">
   <Fellows />
 </Section>
-<!--
+
 <Section header="Aptigram" backgroundColor="#784e90" fullWidth>
   <Aptigram />
 </Section>
--->
+
 <Section {...{ ...kontakt, image: null }} backgroundColor="#00A69A">
   <Contact {...kontakt} />
 </Section>
