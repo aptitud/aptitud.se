@@ -4,12 +4,12 @@ require('dotenv').config()
 
 request
   .get('https://graph.instagram.com/me/media', {
-    qs: { access_token: process.env.INSTAGRAM_ACCESS_TOKEN, fields: 'id,caption,media_url,thumbnail_url', limit: process.env.APTIGRAM_IMAGES_LIMIT },
+    qs: { access_token: process.env.INSTAGRAM_ACCESS_TOKEN, fields: 'id,caption,media_url,thumbnail_url,permalink,timestamp', limit: process.env.APTIGRAM_IMAGES_LIMIT },
     json: true
   })
   .then(({ data }) =>
     Promise.all(
-      data.map(async ({ media_url, thumbnail_url, caption }) => {
+      data.map(async ({ media_url, thumbnail_url, caption, permalink, timestamp }) => {
         const imageUrl = thumbnail_url ?? media_url;
         return {
           url: await request(imageUrl, { encoding: null }).then(img => {
@@ -17,7 +17,9 @@ request
             fs.writeFileSync(`./public/aptigram/${filename}`, img)
             return `./aptigram/${filename}`
           }),
-          caption
+          caption,
+          permalink,
+          date: new Date(timestamp).toISOString().slice(0,10)
         };
       })
     )

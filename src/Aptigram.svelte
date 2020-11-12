@@ -1,6 +1,5 @@
 <script>
   import aptigram from "./aptigram.json";
-  import Heading from "./Heading.svelte";
 
   export let text;
   export let rotation;
@@ -12,7 +11,7 @@
     max-width: 90%;
     margin: 0 auto;
 
-    > div {
+    .image {
       display: inline-block;
 
       &:nth-child(even) a {
@@ -51,11 +50,10 @@
 
         span {
           display: block;
-          font-size: 10px;
-        }
 
-        p {
-          margin: 0;
+          &.date {
+            font-size: 10px;
+          }
         }
 
         img {
@@ -63,23 +61,38 @@
         }
       }
     }
+
+    .instagram-link {
+      margin-top: 40px;
+
+      a {
+        font-family: "Gloria Hallelujah", cursive;
+        font-size: 1.5em;
+        color: #fff;
+      }
+      img {
+        vertical-align: bottom;
+        margin-right: 6px;
+      }
+    }
   }
 </style>
 
 <div class="container">
-  {#each aptigram as { url, caption, location }}
-    <div>
-      <a
-        href="http://www.instagram.com/aptitud_sthlm/"
-        rel="noreferrer"
-        target="_blank"
-        title={caption}>
+  {#each aptigram as { url, caption, date, permalink }}
+    <div class="image">
+      <a href={permalink} title={caption} rel="noreferrer" target="_blank">
         <img alt={caption} src={url} />
-        {#if location}
-          <span>{location}</span>
-        {/if}
-        <p>{caption}</p>
+        <span class="date">{date}</span>
+        <span>{`${caption.substr(0,140)}${caption.length>140 ? '…' : ''}`}</span>
       </a>
     </div>
   {/each}
+
+  <div class="instagram-link">
+    <a href="https://www.instagram.com/aptitud_sthlm/" target="_blank" rel="noreferrer">
+      <img src="//images.ctfassets.net/kqhdnxbobtly/hazXsF2LrUCOOW4CAkeao/034de8dd2e69d68710c1aa389aa52a0a/insta.png?fm=png&amp;fl=png8&amp;h=50" alt="Instagram">
+      @aptitud_sthlm
+    </a>
+  </div>
 </div>
