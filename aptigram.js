@@ -9,7 +9,7 @@ request
   })
   .then(({ data }) =>
     Promise.all(
-      data.map(async ({ media_url, thumbnail_url, caption, permalink, timestamp }) => {
+      data.map(async ({ media_url, thumbnail_url, caption='', permalink, timestamp }) => {
         const imageUrl = thumbnail_url ?? media_url;
         return {
           url: await request(imageUrl, { encoding: null }).then(img => {
