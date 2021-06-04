@@ -40,9 +40,6 @@
   <img src={image.file.url} alt={image.title} />
   <div>
     <div class="card">
-      {@html postalAddress}
-    </div>
-    <div class="card">
       {@html visitingAddress}
     </div>
   </div>
