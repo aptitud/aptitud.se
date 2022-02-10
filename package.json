@@ -19,7 +19,7 @@
   "dependencies": {
     "jsdom": "^15.2.0",
     "marked": "^0.7.0",
-    "node-sass": "^5.0.0",
+    "node-sass": "^7.0.0",
     "sass": "^1.29.0",
     "sirv-cli": "^0.4.4",
     "svelte-preprocess": "^3.1.2"
