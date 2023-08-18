@@ -8,6 +8,7 @@ module.exports.handler = function (event, context) {
         access_token: process.env.INSTAGRAM_ACCESS_TOKEN,
         grant_type: 'ig_refresh_token',
       },
+      json: true,
     })
     .catch((error) => {
       console.error('Error fetching instagram token', error)
@@ -15,8 +16,10 @@ module.exports.handler = function (event, context) {
         statusCode: 500,
       }
     })
-    .then((res) => {
-      console.log({ res })
+    .then((data) => {
+      console.log(
+        `Instagram token refreshed, new expiration ${data.expires_in}`,
+      )
       return {
         statusCode: 200,
       }
