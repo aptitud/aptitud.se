@@ -1,8 +1,9 @@
 const { schedule } = require('@netlify/functions')
 const request = require('request-promise-native')
 
-module.exports.handler = schedule('*/15 * * * *', async (event) => {
+const handler = async function (event, context) {
   console.log('Starting fetching instagram token')
+
   request
     .get('https://graph.instagram.com/refresh_access_token', {
       qs: {
@@ -25,4 +26,6 @@ module.exports.handler = schedule('*/15 * * * *', async (event) => {
         statusCode: 200,
       }
     })
-})
+}
+
+exports.handler = schedule('*/10 * * * *', handler)
