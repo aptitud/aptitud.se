@@ -1,4 +1,3 @@
-const { schedule } = require('@netlify/functions')
 const request = require('request-promise-native')
 
 module.exports.handler = function (event, context) {
