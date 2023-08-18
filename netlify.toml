@@ -1,2 +1,0 @@
-[functions."test-function"]
-schedule = "*/30 * * * *"
