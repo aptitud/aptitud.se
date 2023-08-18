@@ -15,7 +15,8 @@ module.exports.handler = schedule('0 * * * *', async (event) => {
         statusCode: 500,
       }
     })
-    .then(() => {
+    .then((res) => {
+      console.log({ res })
       return {
         statusCode: 200,
       }
